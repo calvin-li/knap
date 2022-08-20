@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Dave Leip's Atlas of U.S. Presidential Elections - County Data</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../CSS/style_template.css" /><link rel="stylesheet" type="text/css" href="../CSS/style_data.css" /><link rel="stylesheet" type="text/css" href="../CSS/table_sort/style.css" /><style type="text/css">
+table.hov {
+	background-color:#FFD200;
+	padding:0px 2px 0px 2px;
+}
+td.hovr {
+	padding:3px;
+	text-align:right;
+}
+
+#title_info { position: absolute; border: 1px solid #999; font-family: arial; white-space:nowrap; padding:5px; font-size: 12px; padding: 2px; color: #333; background-color: #FFD200; visibility: hidden; z-index: 100; }</style>	<script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="../jquery.maphilight.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('.map').maphilight();
+	});
+	</script>
+	
+	<script type="text/javascript" src="../jquery.metadata.js"></script>	
+	<script type="text/javascript" src="../JS/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="../JS/jquery.tablesorter.widgets.min.js"></script>
+
+	
+	<script type="text/javascript">
+	$(document).ready(function() 
+    	{ 
+			$.tablesorter.addParser({
+			  id: "McSt",
+			  is: function(s, table) {
+		        return false;
+			  },
+			  format: function(s) {
+			  	s = s.replace('Mc',"Mac");
+			  	s = s.replace('St.',"Saint");
+			  	s = s.replace('Mt.',"Mount");
+			    return s;
+			  },
+			  type: "text"
+			});
+			$("#datatable156").tablesorter({
+			    theme : 'gray',
+			    widgets: ["filter"],
+			    sortReset   : true,
+    			widgetOptions : {
+			    	filter_hideFilters : false,
+			    }
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		function over(num) {
+		  document.getElementById(num).style.backgroundColor="#DDDDDD";
+		}
+		function out(num) {
+		  document.getElementById(num).style.backgroundColor="#F9F9F9";
+		}
+	</script>
+
+</head>
+
+<body><div id="title_info"></div><div class="menu" style="width:792px; font-weight:600;">
+
+<img id="leftbar" src="https://uselectionatlas.org/IMAGES/menubar_l.png" width="3" alt="" />
+<a class="menu" href="https://uselectionatlas.org" title="Atlas of U.S. Presidential Elections Home Page">Home</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/2020.php" title="Election 2020">2020</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/RESULTS/index.html" title="Presidential Election Results (Primary and General)">Election Results</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/INFORMATION/index.php" title="Includes Articles, History, Process, and Law">Election Info</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/WEBLOGS/dave" title="Atlas Weblogs">Weblog</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/FORUM/index.php" title="Atlas Forum">Forum</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/WIKI/" title="Atlas Wiki">Wiki</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/search.php" title="Search the Site">Search</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/email.php" title="Send me Email!">Email</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/login.php" title="Login">Login</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/siteinfo.php" title="Site Information - FAQ, Awards, Statistics, My Atlas">Site Info</a>
+<img src="https://uselectionatlas.org/IMAGES/divider.png" alt="" />
+<a class="menu" href="https://uselectionatlas.org/BOTTOM/store.php" title="The Atlas Store">Store</a><img id="rightbar" src="https://uselectionatlas.org/IMAGES/menubar_r.png" width="3" alt="" />
+</div>
+<div class="header">1828 Presidential General Election Data - National</div><div class="content"><div id="google"><span style="font-weight:normal;font-size:9pt;font-family:verdona;color:#333">Note: The Google advertisement links below may advocate political positions that this site does not endorse.</span>
+<script type="text/javascript"><!--
+google_ad_client = "pub-0109201992740905";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_channel ="9259261954";
+google_ad_type = "text";
+google_color_border = "999999";
+google_color_bg = "F5F5F5";
+google_color_link = "555555";
+google_color_url = "000099";
+google_color_text = "111111";
+//--></script>
+<script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+<table border="0" cellspacing="0">
+ <tr><td id="data" style="border:0"><b>by State</b><br /><br />
+	 <table style="width:760px" border="0"><tr>
+  	 <td style="width:127px">&nbsp;</td><td><img id="map" style="text-align:center" class="map" src = '../USPRESIDENT/GENERAL/pe1828.png' usemap="#us.map" alt="National Map" /></td>
+  	 <td style="width:127px">&nbsp;</td></tr></table><br /><form method="get" action="data.php"><table><tr><td><table id="datatable156" border="2"><thead><tr><td style="width:25px">Map</td><td style="width:25px">Pie</td><td style="width:105px;">State</td><td class="ctr"><span style="color:#DD0806"><acronym title="Electoral Votes">EV</acronym></span></td><td class="ctr"><span style="color:#0000D4"><acronym title="Electoral Votes">EV</acronym></span></td><td style="width:75px">Total&nbsp;Vote</td><td class="ctr"><span style="color:#DD0806">J</span></td><td class="ctr"><span style="color:#0000D4">A</span></td><td style="width:65px">Margin</td>
+  		<td style="width:60px">%Margin</td><td style="width:54px"><span style="color:#DD0806">Jackson</span></td><td style="width:54px"><span style="color:#0000D4">Adams</span></td><td style="width:54px">Other</td><td style="width:70px"><span style="color:#DD0806">Jackson</span></td><td style="width:70px"><span style="color:#0000D4">Adams</span></td><td style="width:70px">Other</th></tr>
+<tr><th class="filter-false">&nbsp;</th><th>&nbsp;</th><th class="{sorter:'McSt'}">&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th class="ctr">&nbsp;</th><th class="ctr">&nbsp;</th><th>&nbsp;</th>
+  		<th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead>
+<tbody><tr id="1"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=1&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Alabama by County'; over(1); return true" onmouseout="out(1)">Alabama</a></td><td class="rgt"><span style="color:#DD0806">5</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">18,618</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">14,858</span></td><td class="rgt"><span style="color:#DD0806">79.80&#37;</span></td><td class="rgt">&nbsp;89.89&#37;</td><td class="rgt">&nbsp;10.09&#37;</td><td class="rgt">&nbsp;0.02&#37;</td><td class="rgt">16,736</td><td class="rgt">1,878</td><td class="rgt">&nbsp;4</td></tr>
+<tr id="9"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=9&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Connecticut by County'; over(9); return true" onmouseout="out(9)">Connecticut</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">8</span></td><td class="rgt">19,378</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">9,381</span></td><td class="rgt"><span style="color:#0000D4">48.41&#37;</span></td><td class="rgt">&nbsp;22.95&#37;</td><td class="rgt">&nbsp;71.36&#37;</td><td class="rgt">&nbsp;5.68&#37;</td><td class="rgt">4,448</td><td class="rgt">13,829</td><td class="rgt">&nbsp;1,101</td></tr>
+<tr id="10"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=10&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Delaware by County'; over(10); return true" onmouseout="out(10)">Delaware</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">3</span></td><td class="rgt">0</td><td class="ctr">0</td><td class="ctr">0</td><td class="rgt">0</td><td class="rgt">0.00&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">0</td><td class="rgt">0</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="13"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=13&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Georgia by County'; over(13); return true" onmouseout="out(13)">Georgia</a></td><td class="rgt"><span style="color:#DD0806">9</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">20,004</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">18,720</span></td><td class="rgt"><span style="color:#DD0806">93.58&#37;</span></td><td class="rgt">&nbsp;96.79&#37;</td><td class="rgt">&nbsp;3.21&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">19,362</td><td class="rgt">642</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="17"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=17&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Illinois by County'; over(17); return true" onmouseout="out(17)">Illinois</a></td><td class="rgt"><span style="color:#DD0806">3</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">14,222</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">4,898</span></td><td class="rgt"><span style="color:#DD0806">34.44&#37;</span></td><td class="rgt">&nbsp;67.22&#37;</td><td class="rgt">&nbsp;32.78&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">9,560</td><td class="rgt">4,662</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="18"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=18&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Indiana by County'; over(18); return true" onmouseout="out(18)">Indiana</a></td><td class="rgt"><span style="color:#DD0806">5</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">39,309</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">5,205</span></td><td class="rgt"><span style="color:#DD0806">13.24&#37;</span></td><td class="rgt">&nbsp;56.62&#37;</td><td class="rgt">&nbsp;43.38&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">22,257</td><td class="rgt">17,052</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="21"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=21&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Kentucky by County'; over(21); return true" onmouseout="out(21)">Kentucky</a></td><td class="rgt"><span style="color:#DD0806">14</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">70,776</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">7,840</span></td><td class="rgt"><span style="color:#DD0806">11.08&#37;</span></td><td class="rgt">&nbsp;55.54&#37;</td><td class="rgt">&nbsp;44.46&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">39,308</td><td class="rgt">31,468</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="22"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=22&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Louisiana by County'; over(22); return true" onmouseout="out(22)">Louisiana</a></td><td class="rgt"><span style="color:#DD0806">5</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">8,687</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">523</span></td><td class="rgt"><span style="color:#DD0806">6.02&#37;</span></td><td class="rgt">&nbsp;53.01&#37;</td><td class="rgt">&nbsp;46.99&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">4,605</td><td class="rgt">4,082</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="23"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=23&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Maine by County'; over(23); return true" onmouseout="out(23)">Maine</a></td><td class="rgt"><span style="color:#000000">1</span></td><td class="rgt"><span style="color:#0000D4">8</span></td><td class="rgt">34,789</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">6,846</span></td><td class="rgt"><span style="color:#0000D4">19.68&#37;</span></td><td class="rgt">&nbsp;40.03&#37;</td><td class="rgt">&nbsp;59.71&#37;</td><td class="rgt">&nbsp;0.26&#37;</td><td class="rgt">13,927</td><td class="rgt">20,773</td><td class="rgt">&nbsp;89</td></tr>
+<tr id="24"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=24&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Maryland by County'; over(24); return true" onmouseout="out(24)">Maryland</a></td><td class="rgt"><span style="color:#000000">5</span></td><td class="rgt"><span style="color:#0000D4">6</span></td><td class="rgt">45,796</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">232</span></td><td class="rgt"><span style="color:#0000D4">0.51&#37;</span></td><td class="rgt">&nbsp;49.75&#37;</td><td class="rgt">&nbsp;50.25&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">22,782</td><td class="rgt">23,014</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="25"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=25&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Massachusetts by County'; over(25); return true" onmouseout="out(25)">Massachusetts</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">15</span></td><td class="rgt">39,074</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">23,824</span></td><td class="rgt"><span style="color:#0000D4">60.97&#37;</span></td><td class="rgt">&nbsp;15.39&#37;</td><td class="rgt">&nbsp;76.36&#37;</td><td class="rgt">&nbsp;8.26&#37;</td><td class="rgt">6,012</td><td class="rgt">29,836</td><td class="rgt">&nbsp;3,226</td></tr>
+<tr id="28"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=28&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Mississippi by County'; over(28); return true" onmouseout="out(28)">Mississippi</a></td><td class="rgt"><span style="color:#DD0806">3</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">8,344</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">5,182</span></td><td class="rgt"><span style="color:#DD0806">62.10&#37;</span></td><td class="rgt">&nbsp;81.05&#37;</td><td class="rgt">&nbsp;18.95&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">6,763</td><td class="rgt">1,581</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="29"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=29&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Missouri by County'; over(29); return true" onmouseout="out(29)">Missouri</a></td><td class="rgt"><span style="color:#DD0806">3</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">11,654</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">4,810</span></td><td class="rgt"><span style="color:#DD0806">41.27&#37;</span></td><td class="rgt">&nbsp;70.64&#37;</td><td class="rgt">&nbsp;29.36&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">8,232</td><td class="rgt">3,422</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="33"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=33&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for New Hampshire by County'; over(33); return true" onmouseout="out(33)">New Hampshire</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">8</span></td><td class="rgt">44,035</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">3,611</span></td><td class="rgt"><span style="color:#0000D4">8.20&#37;</span></td><td class="rgt">&nbsp;45.90&#37;</td><td class="rgt">&nbsp;54.10&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">20,212</td><td class="rgt">23,823</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="34"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=34&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for New Jersey by County'; over(34); return true" onmouseout="out(34)">New Jersey</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">8</span></td><td class="rgt">45,570</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">1,944</span></td><td class="rgt"><span style="color:#0000D4">4.27&#37;</span></td><td class="rgt">&nbsp;47.86&#37;</td><td class="rgt">&nbsp;52.12&#37;</td><td class="rgt">&nbsp;0.02&#37;</td><td class="rgt">21,809</td><td class="rgt">23,753</td><td class="rgt">&nbsp;8</td></tr>
+<tr id="36"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=36&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for New York by County'; over(36); return true" onmouseout="out(36)">New York</a></td><td class="rgt"><span style="color:#DD0806">20</span></td><td class="rgt"><span style="color:#000000">16</span></td><td class="rgt">270,975</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">7,849</span></td><td class="rgt"><span style="color:#DD0806">2.90&#37;</span></td><td class="rgt">&nbsp;51.45&#37;</td><td class="rgt">&nbsp;48.55&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">139,412</td><td class="rgt">131,563</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="37"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=37&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for North Carolina by County'; over(37); return true" onmouseout="out(37)">North Carolina</a></td><td class="rgt"><span style="color:#DD0806">15</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">51,747</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">23,896</span></td><td class="rgt"><span style="color:#DD0806">46.18&#37;</span></td><td class="rgt">&nbsp;73.07&#37;</td><td class="rgt">&nbsp;26.90&#37;</td><td class="rgt">&nbsp;0.03&#37;</td><td class="rgt">37,814</td><td class="rgt">13,918</td><td class="rgt">&nbsp;15</td></tr>
+<tr id="39"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=39&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Ohio by County'; over(39); return true" onmouseout="out(39)">Ohio</a></td><td class="rgt"><span style="color:#DD0806">16</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">130,993</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">4,201</span></td><td class="rgt"><span style="color:#DD0806">3.21&#37;</span></td><td class="rgt">&nbsp;51.60&#37;</td><td class="rgt">&nbsp;48.40&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">67,597</td><td class="rgt">63,396</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="42"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=42&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Pennsylvania by County'; over(42); return true" onmouseout="out(42)">Pennsylvania</a></td><td class="rgt"><span style="color:#DD0806">28</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">152,500</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">50,804</span></td><td class="rgt"><span style="color:#DD0806">33.31&#37;</span></td><td class="rgt">&nbsp;66.66&#37;</td><td class="rgt">&nbsp;33.34&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">101,652</td><td class="rgt">50,848</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="44"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=44&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Rhode Island by County'; over(44); return true" onmouseout="out(44)">Rhode Island</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">4</span></td><td class="rgt">3,575</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">1,933</span></td><td class="rgt"><span style="color:#0000D4">54.07&#37;</span></td><td class="rgt">&nbsp;22.97&#37;</td><td class="rgt">&nbsp;77.03&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">821</td><td class="rgt">2,754</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="45"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=45&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for South Carolina by County'; over(45); return true" onmouseout="out(45)">South Carolina</a></td><td class="rgt"><span style="color:#DD0806">11</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">0</td><td class="ctr">0</td><td class="ctr">0</td><td class="rgt">0</td><td class="rgt">0.00&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">0</td><td class="rgt">0</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="47"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=47&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Tennessee by County'; over(47); return true" onmouseout="out(47)">Tennessee</a></td><td class="rgt"><span style="color:#DD0806">11</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">46,533</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">42,053</span></td><td class="rgt"><span style="color:#DD0806">90.37&#37;</span></td><td class="rgt">&nbsp;95.19&#37;</td><td class="rgt">&nbsp;4.81&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">44,293</td><td class="rgt">2,240</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="50"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=50&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Vermont by County'; over(50); return true" onmouseout="out(50)">Vermont</a></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt"><span style="color:#0000D4">7</span></td><td class="rgt">33,713</td><td class="ctr">2</td><td class="ctr"><span style="color:#0000D4">1</span></td><td class="rgt"><span style="color:#0000D4">17,013</span></td><td class="rgt"><span style="color:#0000D4">50.46&#37;</span></td><td class="rgt">&nbsp;24.77&#37;</td><td class="rgt">&nbsp;75.23&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">8,350</td><td class="rgt">25,363</td><td class="rgt">&nbsp;0</td></tr>
+<tr id="51"><td></td><td></td><td class="name"><a class="link" href = 'data.php?fips=51&amp;year=1828&amp;datatype=county&amp;def=1&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='1828 Data table for Virginia by County'; over(51); return true" onmouseout="out(51)">Virginia</a></td><td class="rgt"><span style="color:#DD0806">24</span></td><td class="rgt"><span style="color:#000000">0</span></td><td class="rgt">38,924</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">14,784</span></td><td class="rgt"><span style="color:#DD0806">37.98&#37;</span></td><td class="rgt">&nbsp;68.99&#37;</td><td class="rgt">&nbsp;31.01&#37;</td><td class="rgt">&nbsp;0.00&#37;</td><td class="rgt">26,854</td><td class="rgt">12,070</td><td class="rgt">&nbsp;0</td></tr>
+</tbody><tfoot><tr><td></td><td></td><td>Total</td><td class="rgt" style="width:25px"><span style="color:#DD0806">178</span></td><td class="rgt" style="width:25px"><span style="color:#0000D4">83</span></td><td class="rgt">1,149,216</td><td class="ctr"><span style="color:#DD0806">1</span></td><td class="ctr">2</td><td class="rgt"><span style="color:#DD0806">140,839</span></td><td class="rgt"><span style="color:#DD0806">12.26&#37;</span></td><td class="rgt" style="width:12px">&nbsp;55.93&#37;</td><td class="rgt" style="width:12px">&nbsp;43.68&#37;</td><td class="rgt">&nbsp;0.39&#37;</td><td class="rgt" style="width:12px">642,806</td><td class="rgt" style="width:12px">501,967</td><td class="rgt">&nbsp;4,443</td></tr>
+<tr><td></td><td></td><td>Enable</td><td colspan = "2" class="ctr"><input type="checkbox" name="ev" value="1" checked="checked" /></td><td></td><td class="ctr" colspan="2"><input type="checkbox" name="rnk" value="1" checked="checked" /></td><td class="ctr" colspan="2"><input type="checkbox" name="mar" value="1" checked="checked" /></td><td class="ctr" colspan="3"><input type="checkbox" name="per" value="1" checked="checked" /></td><td class="ctr" colspan="3"><input type="checkbox" name="vot" value="1" checked="checked" /></td></tr></tfoot></table><tr><td><br /><b>Customize Table:</b><br /><div class="custom"><b>Enable Columns Not Shown</b><br /><input type="checkbox" name="vap" value="1" /> Voting Age Population<br /><input type="checkbox" name="vac" value="1" /> Voting Age Citizens<br /><input type="checkbox" name="reg" value="1" /> Registered Voters<br /><input type="checkbox" name="bal" value="1" /> Total Ballots Cast<br /><input type="checkbox" name="inv" value="1" /> Total Invalid Ballots (Under/Over-Votes)<br /><input type="checkbox" name="pinv" value="1" /> Percent Invalid Ballots (Under/Over-Votes)<br /><input type="checkbox" name="vtov" value="1" /> Voter Turnout (Vote for President as a % Voting Age Population)<br /><input type="checkbox" name="vtoc" value="1" /> Voter Turnout (Vote for President as a % Voting Age Citizens)<br /><input type="checkbox" name="vtor" value="1" /> Voter Turnout (Vote for President as a % Registered Voters)<br /><br />Minimum Candidate Percentage to Display Individual Percent Column (m)<br />Minimum Candidate Percentage to Display Individual Popular Vote Column (m)<br /><br />
+    <b>Sort Data:</b> 
+      <select name="sort"><option selected="selected" value="">Default</option><option value="tbl_v.margin:Margin">Margin (1st place - 2nd Place)</option>
+       <option value="100*tbl_v.margin/tbl_v.totalvote:Percent Margin">Percent Margin (1st place - 2nd Place)</option><option value="tbl_v.vote1-tbl_v.vote2:Margin">Margin (Dem - Rep)</option>
+       <option value="100*(tbl_v.vote1-tbl_v.vote2)/tbl_v.totalvote:Percent Margin">Percent Margin (Dem - Rep)</option><option value="100*tbl_v.vote1/tbl_v.totalvote:Vote Percentage for Jackson">Vote Percentage for Jackson</option><option value="100*tbl_v.vote2/tbl_v.totalvote:Vote Percentage for Adams">Vote Percentage for Adams</option><option value="tbl_v.vote1:Vote for Jackson">Vote for Jackson</option><option value="tbl_v.vote2:Vote for Adams">Vote for Adams</option><option value="tbl_v.totalvote:Total Vote">Total Vote (Cast for Candidates)</option><option value="tbl_v.pop:Population">Population</option><option value="tbl_v.vap:Voting Age Population">Voting Age Population</option><option value="tbl_v.reg:Registered Voters">Registered Voters</option><option value="100*tbl_v.totalvote/tbl_v.vap:Voter Turnout (Vote for President as %VAP)">Voter Turnout (%VAP)</option><option value="100*tbl_v.totalvote/tbl_v.reg:Voter Turnout (Vote for President as %REG)">Voter Turnout (%REG)</option></select>
+    <input type="hidden" name="fips" value="0" />
+    <input type="hidden" name="search" value="" />
+    <input type="hidden" name="search_name" value="" />
+    <input type="hidden" name="datatype" value="national" />
+    <input type="hidden" name="f" value="0" />
+    <input type="hidden" name="off" value="0" />
+    <input type="hidden" name="year" value="1828" /><br /><br />
+    <b>Sort Direction:</b> Ascending<input type="radio" name = "sort_dir" value="" checked="checked" /> Descending<input type="radio" name = "sort_dir" value="desc" /><br /><br />
+    <input type="submit" name="submit" value="Submit" /><br /></div></td></tr></table></form><div class="sourcesf0"><b>Sources:</b><br /><div id='ext' title='156'></div><ul><li>Source for State popular vote data: Official publications from state election agencies.
+        <a href = "sources.php?year=1828&amp;type=vot&amp;f=0">Complete list of sources for the 1828 popular vote data</a></li></ul></div></td></tr></table><br /><div style="text-align:center"><a href = 'national.php?year=1828&amp;f=0&amp;off=0&amp;elect=0' onmouseover="window.status='National Summary Results for 1828'; return true">National Results for 1828</a><br /><br /><a href = "../login.php">Login</a><br />  
+
+<br />
+<div style="text-align:center"><a target="_PARENT" href="https://uselectionatlas.org/BOTTOM/tos.php">Terms of Use</a> - <a target="_PARENT" href="https://uselectionatlas.org/BOTTOM/dmca.php"> DCMA Policy</a> - <a target="_PARENT" href="https://uselectionatlas.org/BOTTOM/privacypolicy.php"> Privacy Policy and Cookies</a></div>
+
+<br /><br />&#169; <i>Dave Leip's Atlas of U.S. Elections, LLC 2019 All Rights Reserved</i></div>
+<script type="text/javascript" >
+  var altX = 20; var altY = -10; var ie = document.all; var ns6 = document.getElementById && !document.all; var allowAltMsg = false;
+  if (ns6||ie) { var altMsgObj = document.all ? document.all["title_info"] : document.getElementById ? document.getElementById("title_info") : ""; }
+  function checkIEBody() { return (document.compatMode && document.compatMode != "BackCompat") ? document.documentElement : document.body; }
+  function showAltMsg(altMsg) { 
+ 	  var ypos = event.pageY;
+ 	  var imgh = $("#map").height();
+	  if (ypos < imgh + 200) {
+   		    if (ns6||ie) { altMsgObj.innerHTML = altMsg; allowAltMsg = true; return false; } 
+   	  }
+  }
+  function displayAltMsg(e) { if (allowAltMsg) { var curX = (ns6)?e.pageX : event.clientX+checkIEBody().scrollLeft; var curY = (ns6)?e.pageY : event.clientY+checkIEBody().scrollTop; var rightedge = ie&&!window.opera? checkIEBody().clientWidth-event.clientX-altX : window.innerWidth-e.clientX-altX-20; var bottomedge = ie&&!window.opera? checkIEBody().clientHeight-event.clientY-altY : window.innerHeight-e.clientY-altY-20; var leftedge = (altX<0)? altX*(-1) : -1000; if (rightedge<altMsgObj.offsetWidth) { altMsgObj.style.left = ie? checkIEBody().scrollLeft+event.clientX-altMsgObj.offsetWidth+"px" : window.pageXOffset+e.clientX-altMsgObj.offsetWidth+"px"; } else if (curX<leftedge) { altMsgObj.style.left = "5px"; } else { altMsgObj.style.left = curX+altX+"px"; } if (bottomedge<altMsgObj.offsetHeight) { altMsgObj.style.top = ie? checkIEBody().scrollTop+event.clientY-altMsgObj.offsetHeight-altY+"px" : window.pageYOffset+e.clientY-altMsgObj.offsetHeight-altY+"px"; } else { altMsgObj.style.top = curY+altY+"px"; altMsgObj.style.visibility = "visible"; } } }
+  function hideAltMsg() { if (ns6||ie) { allowAltMsg = false; altMsgObj.style.visibility = "hidden"; altMsgObj.style.left = "-1000px"; altMsgObj.style.backgroundColor = ''; altMsgObj.style.width = ''; } }
+  document.onmousemove = displayAltMsg;
+</script>
+
+<map id="us.map" name="us.map">
+<area id="a1" shape='poly' coords="347, 254, 347, 251, 346, 248, 345, 247, 345, 245, 352, 245, 353, 244, 362, 244, 363, 243, 371, 243, 370, 238, 369, 231, 370, 226, 370, 225, 368, 223, 367, 220, 366, 217, 365, 212, 364, 211, 363, 206, 362, 203, 361, 200, 360, 197, 360, 195, 357, 195, 356, 196, 348, 196, 347, 197, 335, 197, 336, 200, 336, 205, 335, 206, 335, 239, 336, 240, 336, 247, 337, 248, 337, 253, 339, 253, 339, 254, 340, 254, 340, 252, 341, 249, 342, 250, 343, 255, 341, 255, 344, 255, 344, 254, 347, 254" href= "state.php?year=1828&amp;fips=1&amp;f=0&amp;off=0&amp;elect=0" alt="Alabama" onmouseover="showAltMsg('<b>Alabama</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>18,618</td></tr><tr><td>Margin:</td><td class=\'hovr\'>14,858</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>16,736</td><td class=\'hovr\'>89.89%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>1,878</td><td class=\'hovr\'>10.09%</td></tr></table><hr /><i>Click for Details</i>');over(1)"; onmouseout="hideAltMsg();out(1)" />
+<area id="a9" shape='poly' coords="457, 91, 461, 91, 462, 90, 463, 91, 464, 90, 469, 89, 472, 88, 473, 95, 473, 96, 472, 97, 469, 98, 466, 99, 465, 99, 463, 101, 462, 101, 460, 103, 459, 102, 459, 101, 458, 101, 458, 96, 457, 95, 457, 91" href= "state.php?year=1828&amp;fips=9&amp;f=0&amp;off=0&amp;elect=0" alt="Connecticut" onmouseover="showAltMsg('<b>Connecticut</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>19,378</td></tr><tr><td>Margin:</td><td class=\'hovr\'>9,381</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>13,829</td><td class=\'hovr\'>71.36%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>4,448</td><td class=\'hovr\'>22.95%</td></tr><tr><td>Others</td><td> (O)</td><td class=\'hovr\'>1,101</td><td class=\'hovr\'>5.68%</td></tr></table><hr /><i>Click for Details</i>');over(9)"; onmouseout="hideAltMsg();out(9)" />
+<area id="a9" shape='poly' coords="458, 104, 458, 103, 459, 102, 460, 103, 459, 104, 458, 104" href= "state.php?year=1828&amp;fips=9&amp;f=0&amp;off=0&amp;elect=0" alt="Connecticut" onmouseover="showAltMsg('<b>Connecticut</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>19,378</td></tr><tr><td>Margin:</td><td class=\'hovr\'>9,381</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>13,829</td><td class=\'hovr\'>71.36%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>4,448</td><td class=\'hovr\'>22.95%</td></tr><tr><td>Others</td><td> (O)</td><td class=\'hovr\'>1,101</td><td class=\'hovr\'>5.68%</td></tr></table><hr /><i>Click for Details</i>');over(9)"; onmouseout="hideAltMsg();out(9)" />
+<area id="a10" shape='poly' coords="453, 138, 452, 138, 447, 139, 446, 136, 445, 131, 444, 128, 443, 125, 443, 123, 444, 122, 445, 122, 445, 125, 446, 126, 446, 127, 448, 129, 449, 132, 452, 135, 453, 138" href= "state.php?year=1828&amp;fips=10&amp;f=0&amp;off=0&amp;elect=0" alt="Delaware" onmouseover="showAltMsg('<b>Delaware</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>0</td></tr><tr><td>Margin:</td><td class=\'hovr\'>0</td></tr></table><hr /><table class=\'hov\'></table><hr /><i>Click for Details</i>');over(10)"; onmouseout="hideAltMsg();out(10)" />
+<area id="a13" shape='poly' coords="360, 195, 360, 196, 361, 201, 362, 202, 363, 207, 364, 210, 365, 213, 366, 216, 367, 221, 368, 222, 368, 223, 370, 225, 369, 232, 370, 237, 370, 238, 371, 243, 372, 243, 373, 246, 376, 246, 377, 245, 390, 245, 391, 244, 401, 244, 401, 246, 403, 246, 403, 245, 402, 240, 407, 241, 408, 241, 408, 236, 409, 235, 410, 228, 411, 227, 411, 225, 409, 223, 409, 222, 405, 218, 405, 217, 404, 214, 403, 213, 402, 213, 397, 208, 396, 208, 389, 201, 389, 200, 387, 198, 386, 198, 383, 197, 382, 196, 383, 195, 384, 192, 379, 193, 375, 193, 374, 194, 367, 194, 366, 195, 360, 195" href= "state.php?year=1828&amp;fips=13&amp;f=0&amp;off=0&amp;elect=0" alt="Georgia" onmouseover="showAltMsg('<b>Georgia</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>20,004</td></tr><tr><td>Margin:</td><td class=\'hovr\'>18,720</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>19,362</td><td class=\'hovr\'>96.79%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>642</td><td class=\'hovr\'>3.21%</td></tr></table><hr /><i>Click for Details</i>');over(13)"; onmouseout="hideAltMsg();out(13)" />
+<area id="a17" shape='poly' coords="305, 108, 319, 108, 320, 107, 331, 107, 331, 109, 332, 112, 333, 113, 334, 116, 334, 120, 335, 121, 335, 133, 336, 134, 336, 146, 337, 153, 336, 154, 335, 157, 334, 160, 333, 161, 333, 162, 334, 163, 333, 164, 333, 165, 332, 166, 333, 167, 331, 169, 330, 169, 329, 170, 330, 171, 330, 172, 329, 173, 328, 172, 325, 171, 323, 173, 322, 173, 321, 172, 321, 170, 320, 167, 318, 165, 317, 165, 315, 163, 314, 163, 311, 160, 311, 159, 312, 156, 313, 155, 313, 153, 311, 151, 308, 152, 307, 150, 307, 148, 300, 141, 299, 136, 299, 134, 303, 130, 304, 125, 303, 124, 303, 122, 304, 121, 305, 121, 308, 120, 309, 119, 310, 116, 310, 113, 305, 108" href= "state.php?year=1828&amp;fips=17&amp;f=0&amp;off=0&amp;elect=0" alt="Illinois" onmouseover="showAltMsg('<b>Illinois</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>14,222</td></tr><tr><td>Margin:</td><td class=\'hovr\'>4,898</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>9,560</td><td class=\'hovr\'>67.22%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>4,662</td><td class=\'hovr\'>32.78%</td></tr></table><hr /><i>Click for Details</i>');over(17)"; onmouseout="hideAltMsg();out(17)" />
+<area id="a18" shape='poly' coords="358, 113, 359, 120, 359, 124, 360, 125, 360, 132, 361, 133, 361, 143, 362, 144, 361, 145, 361, 147, 362, 148, 361, 149, 358, 150, 357, 150, 356, 151, 357, 152, 357, 153, 353, 157, 353, 159, 352, 160, 351, 160, 349, 158, 348, 158, 347, 159, 347, 160, 346, 161, 345, 161, 344, 160, 342, 162, 340, 162, 339, 161, 338, 162, 333, 162, 334, 159, 335, 158, 335, 157, 336, 154, 337, 153, 336, 146, 336, 134, 335, 133, 335, 121, 334, 120, 334, 116, 337, 117, 338, 116, 341, 115, 346, 114, 352, 114, 353, 113, 358, 113" href= "state.php?year=1828&amp;fips=18&amp;f=0&amp;off=0&amp;elect=0" alt="Indiana" onmouseover="showAltMsg('<b>Indiana</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>39,309</td></tr><tr><td>Margin:</td><td class=\'hovr\'>5,205</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>22,257</td><td class=\'hovr\'>56.62%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>17,052</td><td class=\'hovr\'>43.38%</td></tr></table><hr /><i>Click for Details</i>');over(18)"; onmouseout="hideAltMsg();out(18)" />
+<area id="a21" shape='poly' coords="322, 180, 323, 179, 324, 178, 324, 177, 323, 176, 324, 175, 324, 172, 325, 171, 328, 172, 329, 173, 330, 172, 330, 171, 329, 170, 330, 169, 331, 169, 333, 167, 332, 166, 333, 165, 334, 162, 338, 162, 339, 161, 340, 162, 342, 162, 344, 160, 345, 161, 346, 161, 347, 160, 347, 159, 348, 158, 349, 158, 351, 160, 352, 160, 353, 159, 353, 157, 357, 153, 357, 152, 356, 151, 357, 150, 358, 150, 361, 149, 362, 148, 361, 147, 361, 145, 362, 144, 365, 145, 366, 145, 369, 148, 370, 148, 373, 149, 374, 148, 377, 149, 378, 148, 381, 147, 382, 148, 382, 149, 384, 151, 384, 153, 385, 156, 390, 161, 383, 168, 383, 169, 380, 172, 377, 173, 376, 174, 370, 174, 369, 175, 360, 175, 359, 176, 348, 176, 347, 177, 335, 177, 335, 179, 332, 180, 322, 180" href= "state.php?year=1828&amp;fips=21&amp;f=0&amp;off=0&amp;elect=0" alt="Kentucky" onmouseover="showAltMsg('<b>Kentucky</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>70,776</td></tr><tr><td>Margin:</td><td class=\'hovr\'>7,840</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>39,308</td><td class=\'hovr\'>55.54%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>31,468</td><td class=\'hovr\'>44.46%</td></tr></table><hr /><i>Click for Details</i>');over(21)"; onmouseout="hideAltMsg();out(21)" />
+<area id="a22" shape='poly' coords="278, 225, 278, 237, 280, 239, 281, 242, 282, 245, 283, 246, 283, 252, 281, 254, 281, 257, 282, 258, 281, 263, 281, 264, 282, 264, 287, 263, 288, 264, 290, 264, 293, 265, 294, 266, 301, 266, 302, 267, 303, 266, 302, 265, 301, 265, 298, 264, 299, 263, 303, 263, 305, 265, 306, 265, 308, 267, 307, 268, 308, 268, 310, 270, 312, 270, 312, 271, 313, 271, 313, 270, 316, 269, 317, 268, 318, 268, 318, 270, 320, 270, 323, 267, 326, 268, 327, 268, 328, 269, 328, 271, 329, 270, 331, 270, 331, 269, 332, 269, 332, 268, 331, 268, 331, 267, 328, 266, 326, 266, 326, 265, 325, 265, 325, 264, 327, 262, 328, 262, 328, 261, 329, 261, 330, 260, 329, 259, 329, 258, 328, 257, 328, 258, 327, 258, 324, 261, 323, 260, 324, 260, 324, 259, 325, 259, 325, 258, 322, 258, 321, 259, 317, 259, 316, 258, 316, 257, 318, 255, 319, 255, 322, 256, 322, 257, 324, 257, 324, 255, 323, 252, 322, 251, 323, 248, 323, 247, 313, 247, 312, 248, 305, 248, 304, 247, 304, 243, 309, 232, 308, 229, 307, 224, 283, 224, 278, 225" href= "state.php?year=1828&amp;fips=22&amp;f=0&amp;off=0&amp;elect=0" alt="Louisiana" onmouseover="showAltMsg('<b>Louisiana</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>8,687</td></tr><tr><td>Margin:</td><td class=\'hovr\'>523</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>4,605</td><td class=\'hovr\'>53.01%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>4,082</td><td class=\'hovr\'>46.99%</td></tr></table><hr /><i>Click for Details</i>');over(22)"; onmouseout="hideAltMsg();out(22)" />
+<area id="a23" shape='poly' coords="468, 48, 469, 47, 470, 44, 470, 43, 472, 41, 472, 40, 471, 35, 472, 34, 472, 30, 473, 25, 474, 24, 474, 23, 475, 20, 477, 20, 477, 21, 478, 22, 481, 21, 483, 19, 483, 18, 485, 18, 489, 22, 490, 27, 491, 28, 491, 29, 492, 34, 493, 35, 493, 36, 494, 37, 496, 37, 497, 38, 497, 40, 498, 41, 500, 41, 503, 44, 502, 45, 502, 46, 496, 52, 495, 52, 494, 53, 494, 54, 493, 55, 492, 54, 491, 55, 491, 56, 490, 57, 490, 56, 489, 55, 488, 56, 488, 58, 487, 59, 487, 60, 486, 60, 484, 62, 484, 63, 483, 64, 482, 63, 480, 65, 479, 70, 478, 71, 478, 74, 477, 74, 476, 73, 476, 72, 474, 70, 471, 59, 470, 56, 469, 53, 468, 50, 468, 48" href= "state.php?year=1828&amp;fips=23&amp;f=0&amp;off=0&amp;elect=0" alt="Maine" onmouseover="showAltMsg('<b>Maine</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>34,789</td></tr><tr><td>Margin:</td><td class=\'hovr\'>6,846</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>20,773</td><td class=\'hovr\'>59.71%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>13,927</td><td class=\'hovr\'>40.03%</td></tr></table><hr /><i>Click for Details</i>');over(23)"; onmouseout="hideAltMsg();out(23)" />
+<area id="a24" shape='poly' coords="423, 128, 424, 128, 425, 127, 434, 126, 435, 125, 439, 125, 440, 124, 443, 124, 444, 129, 445, 130, 446, 137, 447, 138, 447, 139, 452, 138, 453, 138, 453, 140, 452, 143, 451, 143, 448, 144, 447, 143, 445, 143, 445, 142, 444, 141, 443, 141, 442, 138, 441, 137, 441, 136, 442, 135, 441, 134, 441, 132, 442, 131, 441, 132, 440, 131, 440, 130, 441, 129, 442, 129, 441, 126, 440, 127, 440, 128, 438, 130, 438, 131, 437, 132, 438, 132, 439, 133, 438, 134, 438, 136, 439, 136, 439, 139, 441, 141, 441, 143, 438, 143, 437, 142, 435, 142, 433, 140, 434, 137, 435, 136, 435, 135, 434, 134, 433, 135, 430, 135, 429, 134, 429, 133, 428, 132, 426, 132, 423, 129, 423, 128" href= "state.php?year=1828&amp;fips=24&amp;f=0&amp;off=0&amp;elect=0" alt="Maryland" onmouseover="showAltMsg('<b>Maryland</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>45,796</td></tr><tr><td>Margin:</td><td class=\'hovr\'>232</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>23,014</td><td class=\'hovr\'>50.25%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>22,782</td><td class=\'hovr\'>49.75%</td></tr></table><hr /><i>Click for Details</i>');over(24)"; onmouseout="hideAltMsg();out(24)" />
+<area id="a24" shape='poly' coords="422, 128, 422, 129, 421, 130, 420, 130, 419, 129, 420, 128, 422, 128" href= "state.php?year=1828&amp;fips=24&amp;f=0&amp;off=0&amp;elect=0" alt="Maryland" onmouseover="showAltMsg('<b>Maryland</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>45,796</td></tr><tr><td>Margin:</td><td class=\'hovr\'>232</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>23,014</td><td class=\'hovr\'>50.25%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>22,782</td><td class=\'hovr\'>49.75%</td></tr></table><hr /><i>Click for Details</i>');over(24)"; onmouseout="hideAltMsg();out(24)" />
+<area id="a24" shape='poly' coords="410, 130, 410, 136, 411, 136, 416, 131, 419, 131, 420, 130, 419, 129, 414, 129, 413, 130, 410, 130" href= "state.php?year=1828&amp;fips=24&amp;f=0&amp;off=0&amp;elect=0" alt="Maryland" onmouseover="showAltMsg('<b>Maryland</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>45,796</td></tr><tr><td>Margin:</td><td class=\'hovr\'>232</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>23,014</td><td class=\'hovr\'>50.25%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>22,782</td><td class=\'hovr\'>49.75%</td></tr></table><hr /><i>Click for Details</i>');over(24)"; onmouseout="hideAltMsg();out(24)" />
+<area id="a25" shape='poly' coords="457, 91, 461, 91, 462, 90, 463, 91, 464, 90, 469, 89, 472, 88, 475, 87, 476, 88, 476, 89, 480, 93, 481, 90, 482, 90, 483, 91, 484, 90, 487, 90, 488, 89, 487, 88, 485, 88, 482, 87, 481, 86, 481, 85, 479, 83, 478, 83, 477, 82, 480, 79, 480, 78, 479, 78, 477, 76, 476, 77, 475, 77, 474, 78, 474, 79, 471, 80, 466, 81, 463, 81, 463, 82, 460, 82, 457, 83, 457, 91" href= "state.php?year=1828&amp;fips=25&amp;f=0&amp;off=0&amp;elect=0" alt="Massachusetts" onmouseover="showAltMsg('<b>Massachusetts</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>39,074</td></tr><tr><td>Margin:</td><td class=\'hovr\'>23,824</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>29,836</td><td class=\'hovr\'>76.36%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>6,012</td><td class=\'hovr\'>15.39%</td></tr><tr><td>Others</td><td> (O)</td><td class=\'hovr\'>3,226</td><td class=\'hovr\'>8.26%</td></tr></table><hr /><i>Click for Details</i>');over(25)"; onmouseout="hideAltMsg();out(25)" />
+<area id="a28" shape='poly' coords="337, 254, 337, 248, 336, 247, 336, 240, 335, 239, 335, 206, 336, 205, 336, 199, 335, 198, 325, 198, 324, 199, 315, 199, 315, 200, 312, 203, 312, 206, 309, 209, 309, 210, 307, 212, 307, 213, 308, 214, 307, 215, 306, 218, 307, 219, 308, 222, 307, 223, 308, 230, 309, 231, 309, 232, 304, 243, 304, 247, 305, 248, 312, 248, 313, 247, 323, 247, 323, 248, 322, 251, 323, 252, 324, 255, 324, 256, 326, 256, 329, 255, 330, 254, 337, 254" href= "state.php?year=1828&amp;fips=28&amp;f=0&amp;off=0&amp;elect=0" alt="Mississippi" onmouseover="showAltMsg('<b>Mississippi</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>8,344</td></tr><tr><td>Margin:</td><td class=\'hovr\'>5,182</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>6,763</td><td class=\'hovr\'>81.05%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>1,581</td><td class=\'hovr\'>18.95%</td></tr></table><hr /><i>Click for Details</i>');over(28)"; onmouseout="hideAltMsg();out(28)" />
+<area id="a29" shape='poly' coords="261, 132, 298, 132, 299, 139, 308, 151, 312, 151, 311, 159, 320, 166, 321, 172, 324, 174, 320, 187, 313, 186, 315, 181, 272, 182, 271, 132" href= "state.php?year=1828&amp;fips=29&amp;f=0&amp;off=0&amp;elect=0" alt="Missouri" onmouseover="showAltMsg('<b>Missouri</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>11,654</td></tr><tr><td>Margin:</td><td class=\'hovr\'>4,810</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>8,232</td><td class=\'hovr\'>70.64%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>3,422</td><td class=\'hovr\'>29.36%</td></tr></table><hr /><i>Click for Details</i>');over(29)"; onmouseout="hideAltMsg();out(29)" />
+<area id="a33" shape='poly' coords="465, 49, 465, 55, 466, 58, 465, 59, 465, 60, 463, 62, 463, 69, 462, 70, 462, 75, 463, 78, 462, 79, 464, 81, 468, 81, 469, 80, 471, 80, 474, 79, 474, 78, 475, 77, 476, 77, 477, 76, 477, 75, 476, 72, 474, 70, 471, 59, 470, 56, 469, 53, 468, 50, 468, 48, 465, 49" href= "state.php?year=1828&amp;fips=33&amp;f=0&amp;off=0&amp;elect=0" alt="New Hampshire" onmouseover="showAltMsg('<b>New Hampshire</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>44,035</td></tr><tr><td>Margin:</td><td class=\'hovr\'>3,611</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>23,823</td><td class=\'hovr\'>54.10%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>20,212</td><td class=\'hovr\'>45.90%</td></tr></table><hr /><i>Click for Details</i>');over(33)"; onmouseout="hideAltMsg();out(33)" />
+<area id="a34" shape='poly' coords="453, 131, 452, 131, 452, 129, 449, 128, 445, 124, 446, 123, 446, 122, 450, 118, 450, 116, 446, 112, 446, 110, 445, 107, 447, 105, 447, 101, 448, 101, 450, 103, 455, 104, 456, 105, 456, 108, 455, 109, 455, 111, 454, 112, 457, 112, 458, 117, 458, 119, 457, 124, 456, 125, 455, 128, 454, 129, 454, 130, 453, 131" href= "state.php?year=1828&amp;fips=34&amp;f=0&amp;off=0&amp;elect=0" alt="New Jersey" onmouseover="showAltMsg('<b>New Jersey</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>45,570</td></tr><tr><td>Margin:</td><td class=\'hovr\'>1,944</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>23,753</td><td class=\'hovr\'>52.12%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>21,809</td><td class=\'hovr\'>47.86%</td></tr></table><hr /><i>Click for Details</i>');over(34)"; onmouseout="hideAltMsg();out(34)" />
+<area id="a36" shape='poly' coords="450, 57, 450, 61, 452, 63, 452, 67, 453, 72, 455, 74, 456, 81, 457, 84, 457, 95, 458, 96, 458, 101, 459, 102, 458, 103, 458, 107, 456, 107, 456, 105, 455, 104, 450, 103, 448, 101, 446, 101, 444, 99, 444, 98, 442, 96, 435, 97, 432, 98, 425, 99, 422, 100, 415, 101, 412, 102, 403, 103, 402, 103, 402, 100, 408, 94, 408, 93, 407, 90, 406, 89, 406, 87, 407, 86, 412, 85, 415, 84, 420, 85, 421, 84, 424, 84, 429, 79, 429, 75, 428, 74, 427, 74, 427, 73, 428, 70, 431, 67, 431, 66, 433, 64, 433, 63, 436, 60, 439, 59, 440, 59, 445, 58, 446, 57, 450, 57" href= "state.php?year=1828&amp;fips=36&amp;f=0&amp;off=0&amp;elect=0" alt="New York" onmouseover="showAltMsg('<b>New York</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>270,975</td></tr><tr><td>Margin:</td><td class=\'hovr\'>7,849</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>139,412</td><td class=\'hovr\'>51.45%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>131,563</td><td class=\'hovr\'>48.55%</td></tr></table><hr /><i>Click for Details</i>');over(36)"; onmouseout="hideAltMsg();out(36)" />
+<area id="a36" shape='poly' coords="457, 110, 457, 109, 456, 109, 456, 107, 458, 107, 460, 105, 461, 105, 463, 103, 466, 103, 468, 101, 469, 101, 471, 99, 470, 100, 471, 101, 473, 99, 474, 99, 468, 105, 467, 105, 465, 107, 462, 108, 461, 109, 460, 109, 457, 110" href= "state.php?year=1828&amp;fips=36&amp;f=0&amp;off=0&amp;elect=0" alt="New York" onmouseover="showAltMsg('<b>New York</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>270,975</td></tr><tr><td>Margin:</td><td class=\'hovr\'>7,849</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>139,412</td><td class=\'hovr\'>51.45%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>131,563</td><td class=\'hovr\'>48.55%</td></tr></table><hr /><i>Click for Details</i>');over(36)"; onmouseout="hideAltMsg();out(36)" />
+<area id="a37" shape='poly' coords="431, 199, 430, 198, 429, 197, 428, 197, 425, 194, 424, 194, 422, 192, 421, 192, 418, 189, 415, 190, 411, 190, 410, 191, 408, 191, 404, 187, 401, 188, 394, 188, 393, 189, 391, 189, 384, 192, 379, 193, 377, 193, 372, 194, 372, 192, 378, 186, 380, 186, 383, 183, 384, 183, 386, 181, 386, 180, 387, 179, 390, 178, 391, 177, 392, 177, 394, 175, 395, 172, 395, 171, 400, 171, 401, 170, 408, 170, 409, 169, 414, 169, 415, 168, 420, 168, 421, 167, 425, 167, 426, 166, 430, 166, 431, 165, 435, 165, 436, 164, 440, 164, 441, 163, 445, 163, 446, 162, 449, 162, 449, 163, 450, 163, 450, 166, 449, 167, 449, 166, 448, 165, 448, 166, 445, 169, 443, 167, 445, 169, 443, 171, 444, 171, 445, 170, 446, 169, 446, 170, 448, 170, 448, 169, 449, 169, 450, 170, 450, 171, 451, 172, 451, 170, 452, 169, 454, 169, 454, 172, 452, 174, 452, 176, 451, 177, 450, 177, 450, 176, 448, 176, 447, 175, 445, 177, 442, 176, 445, 177, 446, 178, 448, 178, 447, 179, 447, 180, 447, 181, 444, 182, 443, 181, 444, 182, 448, 182, 449, 181, 451, 181, 451, 182, 448, 185, 443, 186, 443, 185, 443, 187, 442, 187, 442, 188, 441, 189, 440, 189, 439, 190, 439, 191, 438, 191, 437, 196, 436, 197, 435, 197, 432, 198, 431, 199" href= "state.php?year=1828&amp;fips=37&amp;f=0&amp;off=0&amp;elect=0" alt="North Carolina" onmouseover="showAltMsg('<b>North Carolina</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>51,747</td></tr><tr><td>Margin:</td><td class=\'hovr\'>23,896</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>37,814</td><td class=\'hovr\'>73.07%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>13,918</td><td class=\'hovr\'>26.90%</td></tr></table><hr /><i>Click for Details</i>');over(37)"; onmouseout="hideAltMsg();out(37)" />
+<area id="a39" shape='poly' coords="358, 114, 359, 119, 359, 124, 360, 125, 360, 132, 361, 133, 361, 143, 362, 144, 365, 145, 366, 145, 369, 148, 370, 148, 373, 149, 374, 148, 377, 149, 378, 148, 381, 147, 382, 148, 382, 149, 384, 151, 386, 149, 387, 146, 387, 144, 390, 141, 391, 138, 392, 137, 394, 137, 397, 134, 397, 129, 398, 128, 398, 116, 397, 115, 397, 110, 396, 109, 396, 105, 393, 106, 392, 107, 391, 107, 386, 112, 383, 113, 380, 114, 379, 115, 378, 114, 375, 113, 370, 112, 366, 112, 365, 113, 363, 113, 358, 114" href= "state.php?year=1828&amp;fips=39&amp;f=0&amp;off=0&amp;elect=0" alt="Ohio" onmouseover="showAltMsg('<b>Ohio</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>130,993</td></tr><tr><td>Margin:</td><td class=\'hovr\'>4,201</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>67,597</td><td class=\'hovr\'>51.60%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>63,396</td><td class=\'hovr\'>48.40%</td></tr></table><hr /><i>Click for Details</i>');over(39)"; onmouseout="hideAltMsg();out(39)" />
+<area id="a42" shape='poly' coords="396, 105, 396, 109, 397, 110, 397, 115, 398, 116, 398, 122, 399, 123, 400, 132, 403, 131, 408, 131, 409, 130, 418, 129, 421, 128, 428, 127, 431, 126, 438, 125, 441, 124, 442, 124, 444, 122, 446, 122, 450, 118, 450, 116, 446, 112, 446, 110, 445, 107, 447, 105, 447, 102, 444, 99, 444, 98, 442, 96, 435, 97, 432, 98, 425, 99, 422, 100, 415, 101, 412, 102, 403, 103, 402, 103, 402, 100, 400, 102, 399, 102, 396, 105" href= "state.php?year=1828&amp;fips=42&amp;f=0&amp;off=0&amp;elect=0" alt="Pennsylvania" onmouseover="showAltMsg('<b>Pennsylvania</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>152,500</td></tr><tr><td>Margin:</td><td class=\'hovr\'>50,804</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>101,652</td><td class=\'hovr\'>66.66%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>50,848</td><td class=\'hovr\'>33.34%</td></tr></table><hr /><i>Click for Details</i>');over(42)"; onmouseout="hideAltMsg();out(42)" />
+<area id="a44" shape='poly' coords="473, 96, 473, 95, 472, 88, 475, 87, 476, 88, 476, 89, 479, 92, 479, 93, 478, 94, 477, 94, 475, 96, 473, 96" href= "state.php?year=1828&amp;fips=44&amp;f=0&amp;off=0&amp;elect=0" alt="Rhode Island" onmouseover="showAltMsg('<b>Rhode Island</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>3,575</td></tr><tr><td>Margin:</td><td class=\'hovr\'>1,933</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>2,754</td><td class=\'hovr\'>77.03%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>821</td><td class=\'hovr\'>22.97%</td></tr></table><hr /><i>Click for Details</i>');over(44)"; onmouseout="hideAltMsg();out(44)" />
+<area id="a45" shape='poly' coords="412, 225, 410, 224, 409, 223, 409, 222, 405, 218, 405, 217, 404, 214, 403, 213, 402, 213, 397, 208, 396, 208, 389, 201, 389, 200, 387, 197, 386, 198, 383, 197, 382, 196, 383, 195, 384, 192, 386, 191, 389, 190, 390, 189, 397, 188, 401, 188, 404, 187, 407, 190, 407, 191, 414, 190, 415, 190, 418, 189, 421, 192, 422, 192, 424, 194, 425, 194, 428, 197, 429, 197, 430, 198, 430, 199, 428, 201, 427, 204, 426, 205, 426, 208, 422, 212, 422, 213, 418, 217, 417, 217, 417, 218, 414, 218, 415, 219, 415, 220, 414, 221, 412, 219, 411, 219, 412, 220, 413, 223, 412, 223, 412, 225" href= "state.php?year=1828&amp;fips=45&amp;f=0&amp;off=0&amp;elect=0" alt="South Carolina" onmouseover="showAltMsg('<b>South Carolina</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>0</td></tr><tr><td>Margin:</td><td class=\'hovr\'>0</td></tr></table><hr /><table class=\'hov\'></table><hr /><i>Click for Details</i>');over(45)"; onmouseout="hideAltMsg();out(45)" />
+<area id="a47" shape='poly' coords="315, 199, 324, 199, 325, 198, 334, 198, 335, 197, 347, 197, 348, 196, 356, 196, 357, 195, 366, 195, 367, 194, 372, 194, 372, 192, 378, 186, 380, 186, 383, 183, 384, 183, 386, 181, 386, 180, 387, 179, 390, 178, 391, 177, 392, 177, 394, 175, 395, 172, 395, 171, 390, 172, 386, 172, 385, 173, 377, 173, 376, 174, 370, 174, 369, 175, 360, 175, 359, 176, 348, 176, 347, 177, 335, 177, 335, 179, 332, 180, 321, 180, 320, 183, 319, 186, 319, 187, 320, 188, 318, 190, 317, 193, 316, 196, 315, 197, 315, 199" href= "state.php?year=1828&amp;fips=47&amp;f=0&amp;off=0&amp;elect=0" alt="Tennessee" onmouseover="showAltMsg('<b>Tennessee</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>46,533</td></tr><tr><td>Margin:</td><td class=\'hovr\'>42,053</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>44,293</td><td class=\'hovr\'>95.19%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>2,240</td><td class=\'hovr\'>4.81%</td></tr></table><hr /><i>Click for Details</i>');over(47)"; onmouseout="hideAltMsg();out(47)" />
+<area id="a50" shape='poly' coords="450, 56, 450, 61, 452, 63, 452, 67, 453, 72, 455, 74, 456, 81, 456, 82, 457, 83, 460, 82, 463, 82, 463, 80, 462, 79, 463, 78, 462, 75, 462, 70, 463, 69, 463, 62, 465, 60, 466, 57, 465, 56, 465, 53, 458, 54, 457, 55, 450, 56" href= "state.php?year=1828&amp;fips=50&amp;f=0&amp;off=0&amp;elect=0" alt="Vermont" onmouseover="showAltMsg('<b>Vermont</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>33,713</td></tr><tr><td>Margin:</td><td class=\'hovr\'>17,013</td></tr></table><hr /><table class=\'hov\'><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>25,363</td><td class=\'hovr\'>75.23%</td></tr><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>8,350</td><td class=\'hovr\'>24.77%</td></tr></table><hr /><i>Click for Details</i>');over(50)"; onmouseout="hideAltMsg();out(50)" />
+<area id="a51" shape='poly' coords="378, 173, 391, 162, 386, 156, 385, 152, 387, 143, 397, 135, 398, 124, 400, 132, 410, 130, 411, 135, 418, 131, 424, 129, 430, 135, 434, 135, 433, 141, 444, 145, 454, 143, 451, 162, 378, 173" href= "state.php?year=1828&amp;fips=51&amp;f=0&amp;off=0&amp;elect=0" alt="Virginia" onmouseover="showAltMsg('<b>Virginia</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>38,924</td></tr><tr><td>Margin:</td><td class=\'hovr\'>14,784</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>26,854</td><td class=\'hovr\'>68.99%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>12,070</td><td class=\'hovr\'>31.01%</td></tr></table><hr /><i>Click for Details</i>');over(51)"; onmouseout="hideAltMsg();out(51)" />
+<area id="a51" shape='poly' coords="378, 173, 391, 162, 386, 156, 385, 152, 387, 143, 397, 135, 398, 124, 400, 132, 410, 130, 411, 135, 418, 131, 424, 129, 430, 135, 434, 135, 433, 141, 444, 145, 454, 143, 451, 162, 378, 173" href= "state.php?year=1828&amp;fips=51&amp;f=0&amp;off=0&amp;elect=0" alt="Virginia" onmouseover="showAltMsg('<b>Virginia</b><hr /><table class=\'hov\'><tr><td>Total Vote:</td><td class=\'hovr\'>38,924</td></tr><tr><td>Margin:</td><td class=\'hovr\'>14,784</td></tr></table><hr /><table class=\'hov\'><tr><td>Jackson</td><td> (D)</td><td class=\'hovr\'>26,854</td><td class=\'hovr\'>68.99%</td></tr><tr><td>Adams</td><td> (R)</td><td class=\'hovr\'>12,070</td><td class=\'hovr\'>31.01%</td></tr></table><hr /><i>Click for Details</i>');over(51)"; onmouseout="hideAltMsg();out(51)" />
+</map><script type="text/javascript">
+ $('#1').mouseover(function(e) {
+    $('#a1').mouseover();
+}).mouseout(function(e) {
+    $('#a1').mouseout();
+})
+ $('#9').mouseover(function(e) {
+    $('#a9').mouseover();
+}).mouseout(function(e) {
+    $('#a9').mouseout();
+})
+ $('#9').mouseover(function(e) {
+    $('#a9').mouseover();
+}).mouseout(function(e) {
+    $('#a9').mouseout();
+})
+ $('#10').mouseover(function(e) {
+    $('#a10').mouseover();
+}).mouseout(function(e) {
+    $('#a10').mouseout();
+})
+ $('#13').mouseover(function(e) {
+    $('#a13').mouseover();
+}).mouseout(function(e) {
+    $('#a13').mouseout();
+})
+ $('#17').mouseover(function(e) {
+    $('#a17').mouseover();
+}).mouseout(function(e) {
+    $('#a17').mouseout();
+})
+ $('#18').mouseover(function(e) {
+    $('#a18').mouseover();
+}).mouseout(function(e) {
+    $('#a18').mouseout();
+})
+ $('#21').mouseover(function(e) {
+    $('#a21').mouseover();
+}).mouseout(function(e) {
+    $('#a21').mouseout();
+})
+ $('#22').mouseover(function(e) {
+    $('#a22').mouseover();
+}).mouseout(function(e) {
+    $('#a22').mouseout();
+})
+ $('#23').mouseover(function(e) {
+    $('#a23').mouseover();
+}).mouseout(function(e) {
+    $('#a23').mouseout();
+})
+ $('#24').mouseover(function(e) {
+    $('#a24').mouseover();
+}).mouseout(function(e) {
+    $('#a24').mouseout();
+})
+ $('#24').mouseover(function(e) {
+    $('#a24').mouseover();
+}).mouseout(function(e) {
+    $('#a24').mouseout();
+})
+ $('#24').mouseover(function(e) {
+    $('#a24').mouseover();
+}).mouseout(function(e) {
+    $('#a24').mouseout();
+})
+ $('#25').mouseover(function(e) {
+    $('#a25').mouseover();
+}).mouseout(function(e) {
+    $('#a25').mouseout();
+})
+ $('#28').mouseover(function(e) {
+    $('#a28').mouseover();
+}).mouseout(function(e) {
+    $('#a28').mouseout();
+})
+ $('#29').mouseover(function(e) {
+    $('#a29').mouseover();
+}).mouseout(function(e) {
+    $('#a29').mouseout();
+})
+ $('#33').mouseover(function(e) {
+    $('#a33').mouseover();
+}).mouseout(function(e) {
+    $('#a33').mouseout();
+})
+ $('#34').mouseover(function(e) {
+    $('#a34').mouseover();
+}).mouseout(function(e) {
+    $('#a34').mouseout();
+})
+ $('#36').mouseover(function(e) {
+    $('#a36').mouseover();
+}).mouseout(function(e) {
+    $('#a36').mouseout();
+})
+ $('#36').mouseover(function(e) {
+    $('#a36').mouseover();
+}).mouseout(function(e) {
+    $('#a36').mouseout();
+})
+ $('#37').mouseover(function(e) {
+    $('#a37').mouseover();
+}).mouseout(function(e) {
+    $('#a37').mouseout();
+})
+ $('#39').mouseover(function(e) {
+    $('#a39').mouseover();
+}).mouseout(function(e) {
+    $('#a39').mouseout();
+})
+ $('#42').mouseover(function(e) {
+    $('#a42').mouseover();
+}).mouseout(function(e) {
+    $('#a42').mouseout();
+})
+ $('#44').mouseover(function(e) {
+    $('#a44').mouseover();
+}).mouseout(function(e) {
+    $('#a44').mouseout();
+})
+ $('#45').mouseover(function(e) {
+    $('#a45').mouseover();
+}).mouseout(function(e) {
+    $('#a45').mouseout();
+})
+ $('#47').mouseover(function(e) {
+    $('#a47').mouseover();
+}).mouseout(function(e) {
+    $('#a47').mouseout();
+})
+ $('#50').mouseover(function(e) {
+    $('#a50').mouseover();
+}).mouseout(function(e) {
+    $('#a50').mouseout();
+})
+ $('#51').mouseover(function(e) {
+    $('#a51').mouseover();
+}).mouseout(function(e) {
+    $('#a51').mouseout();
+})
+ $('#51').mouseover(function(e) {
+    $('#a51').mouseover();
+}).mouseout(function(e) {
+    $('#a51').mouseout();
+})</script></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-347045-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
