@@ -1,5 +1,8 @@
 import requests
+
 from bs4 import BeautifulSoup
+
+from Election import Election
 
 
 def get_data(year):
@@ -10,20 +13,25 @@ def get_data(year):
         print(f"Downloaded {year}")
 
 
-def extract_table(year):
-    html = []
-    with open(f"raw_data/{year}.html") as file:
-        html = file.read()
-
-    print(html)
+def is_datatable(tag):
+    if tag.name == "table":
+        return "id" in tag.attrs and tag.attrs["id"].startswith("datatable")
 
 
 def main():
+    elections = []
     start = 1824
     end = 2020
     for year in range(start, end + 4, 4):
-        extract_table(year)
-        return
+        with open(f"raw_data/{year}.html") as file:
+            html = file.read()
+
+        soup = BeautifulSoup(html, "html.parser")
+        datatable = soup.find(is_datatable)
+        election = Election(datatable)
+        elections.append(election)
+
+    return
 
 
 if __name__ == '__main__':
