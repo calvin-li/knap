@@ -19,19 +19,41 @@ def is_datatable(tag):
 
 
 def main():
-    elections = []
     start = 1824
     end = 2020
+    elections = []
     for year in range(start, end + 4, 4):
-        with open(f"raw_data/{year}.html") as file:
-            html = file.read()
+        """ commenting out; already done
+        elections.append(extract_from_html(year))
 
-        soup = BeautifulSoup(html, "html.parser")
-        datatable = soup.find(is_datatable)
-        election = Election(datatable)
-        elections.append(election)
+    for election in elections:
+        to_csv(election)
+        """
+        with open(f"csv_data/{year}.csv", "r") as csv:
+            elections.append(Election.create_from_csv(year, csv.readlines()))
 
     return
+
+
+def extract_from_html(year):
+    with open(f"raw_data/{year}.html") as file:
+        html = file.read()
+
+    soup = BeautifulSoup(html, "html.parser")
+    datatable = soup.find(is_datatable)
+    return Election.create_from_html(year, datatable)
+
+
+def to_csv(election: Election):
+    with open(f"csv_data/{election.year}.csv", "w") as csv:
+        evs = ["EV"] * election.num_evs
+        for i in range(2):
+            evs[i] += f"-{election.candidates[i]}"
+        csv.write(f"State,{','.join(evs)},{','.join(election.candidates)}")
+        for state in election.states:
+            ev_string = ",".join([str(x) for x in state.evs])
+            pv_string = ",".join([str(x) for x in state.pvs])
+            csv.write(f"\n{state.name},{ev_string},{pv_string}")
 
 
 if __name__ == '__main__':
