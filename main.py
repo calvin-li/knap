@@ -23,14 +23,19 @@ def main():
     end = 2020
     elections = []
     for year in range(start, end + 4, 4):
-        """ commenting out; already done
-        elections.append(extract_from_html(year))
-
-    for election in elections:
-        to_csv(election)
-        """
         with open(f"csv_data/{year}.csv", "r") as csv:
             elections.append(Election.create_from_csv(year, csv.readlines()))
+
+        """ commenting out; already done
+        elections.append(extract_from_html(year))
+        """
+
+    results = {}
+    for election in elections:
+        results[election.year] = election.knapsack_solve()
+        """
+        to_csv(election)
+        """
 
     return
 
