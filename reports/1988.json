@@ -1,0 +1,66 @@
+{
+    "year": 1988,
+    "original winner": "Bush",
+    "new winner": "Dukakis",
+    "flipped votes": 537766,
+    "flipped states": [
+        [
+            "Pennsylvania",
+            52572
+        ],
+        [
+            "New Mexico",
+            12923
+        ],
+        [
+            "Missouri",
+            41668
+        ],
+        [
+            "Colorado",
+            53363
+        ],
+        [
+            "Illinois",
+            47500
+        ],
+        [
+            "Vermont",
+            4279
+        ],
+        [
+            "Connecticut",
+            36829
+        ],
+        [
+            "Maryland",
+            24932
+        ],
+        [
+            "North Dakota",
+            19411
+        ],
+        [
+            "Maine",
+            31782
+        ],
+        [
+            "California",
+            176343
+        ],
+        [
+            "Montana",
+            10739
+        ],
+        [
+            "South Dakota",
+            9928
+        ],
+        [
+            "Delaware",
+            15497
+        ]
+    ],
+    "total votes": 91594686,
+    "percent votes flipped": "0.587%"
+}

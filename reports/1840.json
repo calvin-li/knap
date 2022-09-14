@@ -1,0 +1,30 @@
+{
+    "year": 1840,
+    "original winner": "Harris.",
+    "new winner": "Van Bu.",
+    "flipped votes": 8722,
+    "flipped states": [
+        [
+            "New York",
+            6635
+        ],
+        [
+            "Pennsylvania",
+            168
+        ],
+        [
+            "Maine",
+            212
+        ],
+        [
+            "Delaware",
+            548
+        ],
+        [
+            "New Jersey",
+            1159
+        ]
+    ],
+    "total votes": 2412694,
+    "percent votes flipped": "0.362%"
+}

@@ -1,0 +1,38 @@
+{
+    "year": 1868,
+    "original winner": "Grant",
+    "new winner": "Seymour",
+    "flipped votes": 24995,
+    "flipped states": [
+        [
+            "Pennsylvania",
+            14450
+        ],
+        [
+            "Arkansas",
+            1518
+        ],
+        [
+            "Indiana",
+            4787
+        ],
+        [
+            "Connecticut",
+            1473
+        ],
+        [
+            "Alabama",
+            1874
+        ],
+        [
+            "California",
+            261
+        ],
+        [
+            "Nevada",
+            632
+        ]
+    ],
+    "total votes": 5722816,
+    "percent votes flipped": "0.437%"
+}

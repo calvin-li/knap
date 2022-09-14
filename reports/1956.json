@@ -1,0 +1,110 @@
+{
+    "year": 1956,
+    "original winner": "Eisenh.",
+    "new winner": "Steven.",
+    "flipped votes": 1141553,
+    "flipped states": [
+        [
+            "New Hampshire",
+            43078
+        ],
+        [
+            "Virginia",
+            59350
+        ],
+        [
+            "Nevada",
+            7705
+        ],
+        [
+            "Oklahoma",
+            44095
+        ],
+        [
+            "Louisiana",
+            42536
+        ],
+        [
+            "Tennessee",
+            2891
+        ],
+        [
+            "Maryland",
+            93563
+        ],
+        [
+            "West Virginia",
+            33882
+        ],
+        [
+            "Oregon",
+            38595
+        ],
+        [
+            "Wyoming",
+            12510
+        ],
+        [
+            "Texas",
+            110331
+        ],
+        [
+            "Utah",
+            48634
+        ],
+        [
+            "North Dakota",
+            30013
+        ],
+        [
+            "Minnesota",
+            50889
+        ],
+        [
+            "Michigan",
+            176875
+        ],
+        [
+            "Montana",
+            19348
+        ],
+        [
+            "Kentucky",
+            47870
+        ],
+        [
+            "South Dakota",
+            24641
+        ],
+        [
+            "Florida",
+            81740
+        ],
+        [
+            "New Mexico",
+            20346
+        ],
+        [
+            "Rhode Island",
+            32015
+        ],
+        [
+            "Washington",
+            48715
+        ],
+        [
+            "Arizona",
+            32056
+        ],
+        [
+            "Delaware",
+            9319
+        ],
+        [
+            "Idaho",
+            30556
+        ]
+    ],
+    "total votes": 62021979,
+    "percent votes flipped": "1.841%"
+}

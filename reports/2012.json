@@ -1,0 +1,26 @@
+{
+    "year": 2012,
+    "original winner": "Obama",
+    "new winner": "Romney",
+    "flipped votes": 214764,
+    "flipped states": [
+        [
+            "Florida",
+            37155
+        ],
+        [
+            "Ohio",
+            83137
+        ],
+        [
+            "New Hampshire",
+            19822
+        ],
+        [
+            "Virginia",
+            74650
+        ]
+    ],
+    "total votes": 129237642,
+    "percent votes flipped": "0.166%"
+}

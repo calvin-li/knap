@@ -1,0 +1,38 @@
+{
+    "year": 1860,
+    "original winner": "Lincoln",
+    "new winner": "Douglas",
+    "flipped votes": 56562,
+    "flipped states": [
+        [
+            "Illinois",
+            5979
+        ],
+        [
+            "Ohio",
+            17195
+        ],
+        [
+            "California",
+            368
+        ],
+        [
+            "Oregon",
+            607
+        ],
+        [
+            "Rhode Island",
+            2269
+        ],
+        [
+            "New York",
+            25069
+        ],
+        [
+            "Minnesota",
+            5075
+        ]
+    ],
+    "total votes": 4681267,
+    "percent votes flipped": "1.208%"
+}

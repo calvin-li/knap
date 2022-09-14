@@ -1,0 +1,54 @@
+{
+    "year": 1852,
+    "original winner": "Pierce",
+    "new winner": "Scott",
+    "flipped votes": 29586,
+    "flipped states": [
+        [
+            "Maryland",
+            2473
+        ],
+        [
+            "Florida",
+            722
+        ],
+        [
+            "Delaware",
+            13
+        ],
+        [
+            "Rhode Island",
+            555
+        ],
+        [
+            "Connecticut",
+            1446
+        ],
+        [
+            "Missouri",
+            4417
+        ],
+        [
+            "Pennsylvania",
+            9730
+        ],
+        [
+            "North Carolina",
+            373
+        ],
+        [
+            "Ohio",
+            8206
+        ],
+        [
+            "Louisiana",
+            697
+        ],
+        [
+            "Iowa",
+            954
+        ]
+    ],
+    "total votes": 3159640,
+    "percent votes flipped": "0.936%"
+}

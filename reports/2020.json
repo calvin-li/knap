@@ -1,0 +1,26 @@
+{
+    "year": 2020,
+    "original winner": "Biden",
+    "new winner": "Trump",
+    "flipped votes": 38260,
+    "flipped states": [
+        [
+            "Nevada",
+            16799
+        ],
+        [
+            "Arizona",
+            5229
+        ],
+        [
+            "Wisconsin",
+            10342
+        ],
+        [
+            "Georgia",
+            5890
+        ]
+    ],
+    "total votes": 158590894,
+    "percent votes flipped": "0.024%"
+}

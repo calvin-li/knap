@@ -1,0 +1,94 @@
+{
+    "year": 1924,
+    "original winner": "Coolid.",
+    "new winner": "Davis",
+    "flipped votes": 549426,
+    "flipped states": [
+        [
+            "Maryland",
+            7172
+        ],
+        [
+            "Nevada",
+            2668
+        ],
+        [
+            "Nebraska",
+            40649
+        ],
+        [
+            "West Virginia",
+            15702
+        ],
+        [
+            "New Mexico",
+            3102
+        ],
+        [
+            "Vermont",
+            32188
+        ],
+        [
+            "Missouri",
+            37867
+        ],
+        [
+            "Wyoming",
+            14496
+        ],
+        [
+            "North Dakota",
+            40537
+        ],
+        [
+            "Idaho",
+            22812
+        ],
+        [
+            "Rhode Island",
+            24341
+        ],
+        [
+            "South Dakota",
+            37043
+        ],
+        [
+            "Oregon",
+            37496
+        ],
+        [
+            "Indiana",
+            105399
+        ],
+        [
+            "Kentucky",
+            12056
+        ],
+        [
+            "Arizona",
+            2141
+        ],
+        [
+            "New Hampshire",
+            20688
+        ],
+        [
+            "Montana",
+            20167
+        ],
+        [
+            "Utah",
+            15164
+        ],
+        [
+            "Maine",
+            48239
+        ],
+        [
+            "Delaware",
+            9499
+        ]
+    ],
+    "total votes": 29092624,
+    "percent votes flipped": "1.889%"
+}

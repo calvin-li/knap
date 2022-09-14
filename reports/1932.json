@@ -1,0 +1,86 @@
+{
+    "year": 1932,
+    "original winner": "Roosev.",
+    "new winner": "Hoover",
+    "flipped votes": 874622,
+    "flipped states": [
+        [
+            "Ohio",
+            37189
+        ],
+        [
+            "West Virginia",
+            37197
+        ],
+        [
+            "Wyoming",
+            7394
+        ],
+        [
+            "Tennessee",
+            66361
+        ],
+        [
+            "Nevada",
+            8042
+        ],
+        [
+            "New Mexico",
+            20437
+        ],
+        [
+            "Michigan",
+            65904
+        ],
+        [
+            "Utah",
+            15978
+        ],
+        [
+            "Massachusetts",
+            31595
+        ],
+        [
+            "South Carolina",
+            50185
+        ],
+        [
+            "Idaho",
+            19032
+        ],
+        [
+            "Kansas",
+            37354
+        ],
+        [
+            "Oregon",
+            38927
+        ],
+        [
+            "Colorado",
+            30631
+        ],
+        [
+            "New York",
+            298499
+        ],
+        [
+            "Virginia",
+            57172
+        ],
+        [
+            "Rhode Island",
+            15670
+        ],
+        [
+            "Arizona",
+            21581
+        ],
+        [
+            "New Jersey",
+            15474
+        ]
+    ],
+    "total votes": 39752454,
+    "percent votes flipped": "2.200%"
+}

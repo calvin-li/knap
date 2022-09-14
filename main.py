@@ -1,4 +1,5 @@
 import requests
+import json
 
 from bs4 import BeautifulSoup
 
@@ -30,12 +31,19 @@ def main():
         elections.append(extract_from_html(year))
         """
 
-    results = {}
+    reports = []
     for election in elections:
-        results[election.year] = election.knapsack_solve()
+        reports.append(election.knapsack_solve())
         """
         to_csv(election)
         """
+
+    for report in reports:
+        to_json(report)
+        print(json.dumps(report, indent=4))
+
+    with open("reports/all.json", "w") as all_file:
+        all_file.write(json.dumps(reports, indent=4))
 
     return
 
@@ -59,6 +67,11 @@ def to_csv(election: Election):
             ev_string = ",".join([str(x) for x in state.evs])
             pv_string = ",".join([str(x) for x in state.pvs])
             csv.write(f"\n{state.name},{ev_string},{pv_string}")
+
+
+def to_json(report):
+    with open(f"reports/{report['year']}.json", "w") as json_file:
+        json_file.write(json.dumps(report, indent=4))
 
 
 if __name__ == '__main__':

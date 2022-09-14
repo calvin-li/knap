@@ -1,0 +1,38 @@
+{
+    "year": 1900,
+    "original winner": "McKinl.",
+    "new winner": "Bryan",
+    "flipped votes": 73232,
+    "flipped states": [
+        [
+            "Kansas",
+            11678
+        ],
+        [
+            "Ohio",
+            34519
+        ],
+        [
+            "Nebraska",
+            3912
+        ],
+        [
+            "Delaware",
+            1842
+        ],
+        [
+            "Maryland",
+            6974
+        ],
+        [
+            "Indiana",
+            13240
+        ],
+        [
+            "Utah",
+            1067
+        ]
+    ],
+    "total votes": 13971846,
+    "percent votes flipped": "0.524%"
+}

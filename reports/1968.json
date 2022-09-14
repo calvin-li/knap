@@ -1,0 +1,42 @@
+{
+    "year": 1968,
+    "original winner": "Nixon",
+    "new winner": "Humphr.",
+    "flipped votes": 135284,
+    "flipped states": [
+        [
+            "Missouri",
+            10245
+        ],
+        [
+            "Delaware",
+            3761
+        ],
+        [
+            "Wisconsin",
+            30597
+        ],
+        [
+            "Nevada",
+            6296
+        ],
+        [
+            "New Jersey",
+            30631
+        ],
+        [
+            "Vermont",
+            7444
+        ],
+        [
+            "Alaska",
+            1095
+        ],
+        [
+            "Ohio",
+            45215
+        ]
+    ],
+    "total votes": 73199999,
+    "percent votes flipped": "0.185%"
+}

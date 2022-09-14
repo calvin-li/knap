@@ -1,0 +1,66 @@
+{
+    "year": 1940,
+    "original winner": "Roosev.",
+    "new winner": "Willkie",
+    "flipped votes": 426514,
+    "flipped states": [
+        [
+            "Illinois",
+            51348
+        ],
+        [
+            "New Mexico",
+            12193
+        ],
+        [
+            "Delaware",
+            6580
+        ],
+        [
+            "Idaho",
+            10645
+        ],
+        [
+            "Wyoming",
+            3328
+        ],
+        [
+            "Wisconsin",
+            12808
+        ],
+        [
+            "Missouri",
+            43734
+        ],
+        [
+            "Connecticut",
+            27902
+        ],
+        [
+            "New Jersey",
+            35667
+        ],
+        [
+            "Minnesota",
+            23962
+        ],
+        [
+            "New York",
+            112221
+        ],
+        [
+            "New Hampshire",
+            7583
+        ],
+        [
+            "Ohio",
+            73184
+        ],
+        [
+            "Nevada",
+            5359
+        ]
+    ],
+    "total votes": 49912852,
+    "percent votes flipped": "0.855%"
+}

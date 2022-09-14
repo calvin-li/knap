@@ -1,0 +1,70 @@
+{
+    "year": 1944,
+    "original winner": "Roosev.",
+    "new winner": "Dewey",
+    "flipped votes": 278659,
+    "flipped states": [
+        [
+            "Michigan",
+            11239
+        ],
+        [
+            "Maryland",
+            11271
+        ],
+        [
+            "Pennsylvania",
+            52713
+        ],
+        [
+            "Montana",
+            9697
+        ],
+        [
+            "Idaho",
+            3632
+        ],
+        [
+            "Nevada",
+            2507
+        ],
+        [
+            "Connecticut",
+            22310
+        ],
+        [
+            "Illinois",
+            70083
+        ],
+        [
+            "New Jersey",
+            13270
+        ],
+        [
+            "New Hampshire",
+            4874
+        ],
+        [
+            "Oregon",
+            11636
+        ],
+        [
+            "Delaware",
+            5710
+        ],
+        [
+            "New Mexico",
+            5351
+        ],
+        [
+            "Minnesota",
+            31225
+        ],
+        [
+            "Missouri",
+            23141
+        ]
+    ],
+    "total votes": 47977092,
+    "percent votes flipped": "0.581%"
+}

@@ -1,0 +1,22 @@
+{
+    "year": 2016,
+    "original winner": "Trump",
+    "new winner": "Clinton",
+    "flipped votes": 38871,
+    "flipped states": [
+        [
+            "Wisconsin",
+            11375
+        ],
+        [
+            "Michigan",
+            5353
+        ],
+        [
+            "Pennsylvania",
+            22143
+        ]
+    ],
+    "total votes": 137143218,
+    "percent votes flipped": "0.028%"
+}

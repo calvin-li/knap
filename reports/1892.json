@@ -1,0 +1,42 @@
+{
+    "year": 1892,
+    "original winner": "Clevel.",
+    "new winner": "Harris.",
+    "flipped votes": 29093,
+    "flipped states": [
+        [
+            "West Virginia",
+            2088
+        ],
+        [
+            "Idaho",
+            961
+        ],
+        [
+            "Indiana",
+            3563
+        ],
+        [
+            "Delaware",
+            253
+        ],
+        [
+            "Connecticut",
+            2682
+        ],
+        [
+            "Kansas",
+            2936
+        ],
+        [
+            "Illinois",
+            13497
+        ],
+        [
+            "Wisconsin",
+            3113
+        ]
+    ],
+    "total votes": 12068027,
+    "percent votes flipped": "0.241%"
+}

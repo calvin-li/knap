@@ -1,0 +1,78 @@
+{
+    "year": 1980,
+    "original winner": "Reagan",
+    "new winner": "Carter",
+    "flipped votes": 731189,
+    "flipped states": [
+        [
+            "South Carolina",
+            6824
+        ],
+        [
+            "Pennsylvania",
+            162167
+        ],
+        [
+            "Mississippi",
+            5905
+        ],
+        [
+            "Massachusetts",
+            1915
+        ],
+        [
+            "Delaware",
+            2750
+        ],
+        [
+            "Wisconsin",
+            53631
+        ],
+        [
+            "Illinois",
+            188319
+        ],
+        [
+            "Maine",
+            8775
+        ],
+        [
+            "Alabama",
+            8732
+        ],
+        [
+            "North Carolina",
+            19692
+        ],
+        [
+            "New York",
+            82730
+        ],
+        [
+            "Louisiana",
+            42201
+        ],
+        [
+            "Michigan",
+            126847
+        ],
+        [
+            "Tennessee",
+            2356
+        ],
+        [
+            "Vermont",
+            6354
+        ],
+        [
+            "Kentucky",
+            9429
+        ],
+        [
+            "Arkansas",
+            2562
+        ]
+    ],
+    "total votes": 86509678,
+    "percent votes flipped": "0.845%"
+}

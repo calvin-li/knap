@@ -106,11 +106,20 @@ class Election:
             print(f"something weird happened in {self.year}")
             return None
 
-        return self._solve(items, evs_short)
+        flipped_votes, flipped_states = self._solve(items, evs_short)
+        very_close = self.year in [2000]
+        return {
+            "year": self.year,
+            "original winner": winner,
+            "new winner": runner_up,
+            "flipped votes": flipped_votes,
+            "flipped states": list(flipped_states),
+            "total votes": total_pvs,
+            "percent votes flipped": f"{flipped_votes * 100 / total_pvs:.{5 if very_close else 3}f}%"
+        }
 
     @staticmethod
     def _solve(items, target_value):
-        total_weight = sum([i.weight for i in items])
         dp_table = []
         ans_table = []
         for _ in range(len(items)):

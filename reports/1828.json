@@ -1,0 +1,26 @@
+{
+    "year": 1828,
+    "original winner": "Jackson",
+    "new winner": "Adams",
+    "flipped votes": 12162,
+    "flipped states": [
+        [
+            "Virginia",
+            7393
+        ],
+        [
+            "Ohio",
+            2101
+        ],
+        [
+            "Louisiana",
+            262
+        ],
+        [
+            "Missouri",
+            2406
+        ]
+    ],
+    "total votes": 1149216,
+    "percent votes flipped": "1.058%"
+}

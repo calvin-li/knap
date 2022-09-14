@@ -1,0 +1,114 @@
+{
+    "year": 1964,
+    "original winner": "Johnson",
+    "new winner": "Goldwa.",
+    "flipped votes": 2059257,
+    "flipped states": [
+        [
+            "New Hampshire",
+            40018
+        ],
+        [
+            "Montana",
+            25608
+        ],
+        [
+            "Nebraska",
+            15231
+        ],
+        [
+            "Delaware",
+            22314
+        ],
+        [
+            "Vermont",
+            26593
+        ],
+        [
+            "South Dakota",
+            16452
+        ],
+        [
+            "Indiana",
+            129866
+        ],
+        [
+            "Colorado",
+            89629
+        ],
+        [
+            "Oregon",
+            109120
+        ],
+        [
+            "Utah",
+            19474
+        ],
+        [
+            "North Dakota",
+            20789
+        ],
+        [
+            "Florida",
+            21300
+        ],
+        [
+            "California",
+            646385
+        ],
+        [
+            "Nevada",
+            11623
+        ],
+        [
+            "Texas",
+            352310
+        ],
+        [
+            "Virginia",
+            38353
+        ],
+        [
+            "New Mexico",
+            31090
+        ],
+        [
+            "Tennessee",
+            62992
+        ],
+        [
+            "Wyoming",
+            9361
+        ],
+        [
+            "Iowa",
+            141942
+        ],
+        [
+            "Kansas",
+            38725
+        ],
+        [
+            "Alaska",
+            10700
+        ],
+        [
+            "Idaho",
+            2682
+        ],
+        [
+            "Arkansas",
+            35467
+        ],
+        [
+            "Oklahoma",
+            53585
+        ],
+        [
+            "North Carolina",
+            87648
+        ]
+    ],
+    "total votes": 70641539,
+    "percent votes flipped": "2.915%"
+}

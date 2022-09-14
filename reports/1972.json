@@ -1,0 +1,114 @@
+{
+    "year": 1972,
+    "original winner": "Nixon",
+    "new winner": "McGove.",
+    "flipped votes": 3174786,
+    "flipped states": [
+        [
+            "California",
+            563125
+        ],
+        [
+            "North Dakota",
+            36863
+        ],
+        [
+            "Washington",
+            134401
+        ],
+        [
+            "Maine",
+            47938
+        ],
+        [
+            "Alaska",
+            11192
+        ],
+        [
+            "South Carolina",
+            144579
+        ],
+        [
+            "Rhode Island",
+            12870
+        ],
+        [
+            "Maryland",
+            161763
+        ],
+        [
+            "Wyoming",
+            28054
+        ],
+        [
+            "Minnesota",
+            47962
+        ],
+        [
+            "Michigan",
+            251144
+        ],
+        [
+            "New Hampshire",
+            48645
+        ],
+        [
+            "Iowa",
+            105001
+        ],
+        [
+            "New York",
+            620848
+        ],
+        [
+            "Connecticut",
+            127633
+        ],
+        [
+            "South Dakota",
+            13266
+        ],
+        [
+            "Idaho",
+            59280
+        ],
+        [
+            "Nevada",
+            24868
+        ],
+        [
+            "Oregon",
+            46964
+        ],
+        [
+            "Montana",
+            31890
+        ],
+        [
+            "Hawaii",
+            33729
+        ],
+        [
+            "Delaware",
+            24038
+        ],
+        [
+            "Illinois",
+            437354
+        ],
+        [
+            "Wisconsin",
+            89629
+        ],
+        [
+            "Vermont",
+            24488
+        ],
+        [
+            "New Mexico",
+            47262
+        ]
+    ],
+    "total votes": 77744030,
+    "percent votes flipped": "4.084%"
+}

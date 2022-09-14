@@ -1,0 +1,38 @@
+{
+    "year": 2008,
+    "original winner": "Obama",
+    "new winner": "McCain",
+    "flipped votes": 495165,
+    "flipped states": [
+        [
+            "New Hampshire",
+            34147
+        ],
+        [
+            "Ohio",
+            131113
+        ],
+        [
+            "Florida",
+            118075
+        ],
+        [
+            "Indiana",
+            14196
+        ],
+        [
+            "North Carolina",
+            7089
+        ],
+        [
+            "Virginia",
+            117264
+        ],
+        [
+            "Iowa",
+            73281
+        ]
+    ],
+    "total votes": 131473705,
+    "percent votes flipped": "0.377%"
+}

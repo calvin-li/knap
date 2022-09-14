@@ -1,0 +1,14 @@
+{
+    "year": 2000,
+    "original winner": "Bush",
+    "new winner": "Gore",
+    "flipped votes": 269,
+    "flipped states": [
+        [
+            "Florida",
+            269
+        ]
+    ],
+    "total votes": 105425985,
+    "percent votes flipped": "0.00026%"
+}

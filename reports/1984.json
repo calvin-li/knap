@@ -1,0 +1,102 @@
+{
+    "year": 1984,
+    "original winner": "Reagan",
+    "new winner": "Mondale",
+    "flipped votes": 2675811,
+    "flipped states": [
+        [
+            "Georgia",
+            181048
+        ],
+        [
+            "Wyoming",
+            39936
+        ],
+        [
+            "Pennsylvania",
+            178097
+        ],
+        [
+            "New York",
+            272578
+        ],
+        [
+            "West Virginia",
+            38680
+        ],
+        [
+            "Alaska",
+            38186
+        ],
+        [
+            "Tennessee",
+            139250
+        ],
+        [
+            "Maryland",
+            45992
+        ],
+        [
+            "Vermont",
+            20068
+        ],
+        [
+            "Rhode Island",
+            7488
+        ],
+        [
+            "Massachusetts",
+            35666
+        ],
+        [
+            "Illinois",
+            310303
+        ],
+        [
+            "Montana",
+            42855
+        ],
+        [
+            "Delaware",
+            25268
+        ],
+        [
+            "Hawaii",
+            18949
+        ],
+        [
+            "New Mexico",
+            52667
+        ],
+        [
+            "Nevada",
+            48558
+        ],
+        [
+            "Washington",
+            122160
+        ],
+        [
+            "Iowa",
+            48735
+        ],
+        [
+            "Oregon",
+            74611
+        ],
+        [
+            "Maine",
+            60993
+        ],
+        [
+            "California",
+            772246
+        ],
+        [
+            "Wisconsin",
+            101477
+        ]
+    ],
+    "total votes": 92653233,
+    "percent votes flipped": "2.888%"
+}

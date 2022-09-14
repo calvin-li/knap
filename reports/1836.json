@@ -1,0 +1,42 @@
+{
+    "year": 1836,
+    "original winner": "Van Bu.",
+    "new winner": "Harris.",
+    "flipped votes": 15935,
+    "flipped states": [
+        [
+            "Connecticut",
+            248
+        ],
+        [
+            "Michigan",
+            789
+        ],
+        [
+            "Maine",
+            4012
+        ],
+        [
+            "Mississippi",
+            5149
+        ],
+        [
+            "Pennsylvania",
+            2112
+        ],
+        [
+            "Louisiana",
+            1922
+        ],
+        [
+            "Illinois",
+            1575
+        ],
+        [
+            "Rhode Island",
+            128
+        ]
+    ],
+    "total votes": 1502811,
+    "percent votes flipped": "1.060%"
+}

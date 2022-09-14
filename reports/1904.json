@@ -1,0 +1,50 @@
+{
+    "year": 1904,
+    "original winner": "Roosev.",
+    "new winner": "Parker",
+    "flipped votes": 196679,
+    "flipped states": [
+        [
+            "Missouri",
+            12569
+        ],
+        [
+            "West Virginia",
+            15883
+        ],
+        [
+            "Massachusetts",
+            46039
+        ],
+        [
+            "New York",
+            87777
+        ],
+        [
+            "Nevada",
+            1442
+        ],
+        [
+            "Wyoming",
+            5780
+        ],
+        [
+            "Rhode Island",
+            8384
+        ],
+        [
+            "Montana",
+            6580
+        ],
+        [
+            "Delaware",
+            2180
+        ],
+        [
+            "New Hampshire",
+            10045
+        ]
+    ],
+    "total votes": 13525759,
+    "percent votes flipped": "1.454%"
+}

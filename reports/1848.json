@@ -1,0 +1,26 @@
+{
+    "year": 1848,
+    "original winner": "Taylor",
+    "new winner": "Cass",
+    "flipped votes": 3717,
+    "flipped states": [
+        [
+            "Georgia",
+            1374
+        ],
+        [
+            "Delaware",
+            266
+        ],
+        [
+            "Florida",
+            519
+        ],
+        [
+            "New Jersey",
+            1558
+        ]
+    ],
+    "total votes": 2876818,
+    "percent votes flipped": "0.129%"
+}

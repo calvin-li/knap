@@ -1,0 +1,22 @@
+{
+    "year": 1856,
+    "original winner": "Buchan.",
+    "new winner": "Fremont",
+    "flipped votes": 26078,
+    "flipped states": [
+        [
+            "Indiana",
+            12148
+        ],
+        [
+            "New Jersey",
+            9303
+        ],
+        [
+            "Illinois",
+            4627
+        ]
+    ],
+    "total votes": 4051605,
+    "percent votes flipped": "0.644%"
+}
