@@ -4,14 +4,14 @@
     "new winner": "Harris.",
     "flipped votes": 15935,
     "flipped states": {
-        "Michigan": 789,
         "Rhode Island": 128,
         "Pennsylvania": 2112,
-        "Maine": 4012,
+        "Louisiana": 1922,
         "Mississippi": 5149,
         "Illinois": 1575,
-        "Connecticut": 248,
-        "Louisiana": 1922
+        "Maine": 4012,
+        "Michigan": 789,
+        "Connecticut": 248
     },
     "total votes": 1502811,
     "percent votes flipped": "1.060%"

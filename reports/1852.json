@@ -4,17 +4,17 @@
     "new winner": "Scott",
     "flipped votes": 29586,
     "flipped states": {
-        "Florida": 722,
-        "Maryland": 2473,
-        "Pennsylvania": 9730,
-        "North Carolina": 373,
         "Rhode Island": 555,
-        "Delaware": 13,
-        "Missouri": 4417,
-        "Ohio": 8206,
-        "Iowa": 954,
+        "Pennsylvania": 9730,
+        "Connecticut": 1446,
         "Louisiana": 697,
-        "Connecticut": 1446
+        "North Carolina": 373,
+        "Iowa": 954,
+        "Delaware": 13,
+        "Ohio": 8206,
+        "Maryland": 2473,
+        "Missouri": 4417,
+        "Florida": 722
     },
     "total votes": 3159640,
     "percent votes flipped": "0.936%"

@@ -4,13 +4,13 @@
     "new winner": "McCain",
     "flipped votes": 495165,
     "flipped states": {
-        "New Hampshire": 34147,
-        "Virginia": 117264,
-        "Iowa": 73281,
-        "Indiana": 14196,
         "North Carolina": 7089,
         "Florida": 118075,
-        "Ohio": 131113
+        "Ohio": 131113,
+        "Virginia": 117264,
+        "Indiana": 14196,
+        "Iowa": 73281,
+        "New Hampshire": 34147
     },
     "total votes": 131473705,
     "percent votes flipped": "0.377%"

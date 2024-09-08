@@ -4,18 +4,18 @@
     "new winner": "Bush",
     "flipped votes": 284837,
     "flipped states": {
-        "Georgia": 6858,
-        "Kentucky": 23964,
-        "Louisiana": 41293,
-        "Ohio": 45317,
-        "Delaware": 11871,
-        "New Hampshire": 3279,
         "Montana": 5151,
+        "Ohio": 45317,
+        "New Hampshire": 3279,
+        "Delaware": 11871,
         "Colorado": 33416,
         "Nevada": 6661,
+        "Hawaii": 21245,
+        "Kentucky": 23964,
+        "Louisiana": 41293,
+        "Georgia": 6858,
         "Tennessee": 46111,
-        "New Jersey": 39671,
-        "Hawaii": 21245
+        "New Jersey": 39671
     },
     "total votes": 104426611,
     "percent votes flipped": "0.273%"

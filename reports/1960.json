@@ -4,10 +4,10 @@
     "new winner": "Nixon",
     "flipped votes": 11874,
     "flipped states": {
-        "Nevada": 1247,
-        "New Mexico": 1148,
         "Illinois": 4430,
         "Hawaii": 58,
+        "Nevada": 1247,
+        "New Mexico": 1148,
         "Missouri": 4991
     },
     "total votes": 68832483,

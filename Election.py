@@ -107,7 +107,8 @@ class Election:
             return None
 
         flipped_votes, flipped_states = self._solve(items, evs_short)
-        very_close = self.year in [2000]
+        percent_flipped = flipped_votes * 100 / total_pvs
+        very_close = percent_flipped < 0.0001
         return {
             "year": self.year,
             "original winner": winner,
@@ -115,7 +116,7 @@ class Election:
             "flipped votes": flipped_votes,
             "flipped states": {state[0]: state[1] for state in flipped_states},
             "total votes": total_pvs,
-            "percent votes flipped": f"{flipped_votes * 100 / total_pvs:.{5 if very_close else 3}f}%"
+            "percent votes flipped": f"{percent_flipped :.{5 if very_close else 3}f}%"
         }
 
     @staticmethod

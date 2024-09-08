@@ -4,12 +4,12 @@
     "new winner": "Clay",
     "flipped votes": 14013,
     "flipped states": {
-        "Louisiana": 740,
         "New York": 6801,
-        "New Jersey": 181,
-        "Vermont": 978,
         "Ohio": 2354,
-        "New Hampshire": 2959
+        "New Hampshire": 2959,
+        "Vermont": 978,
+        "Louisiana": 740,
+        "New Jersey": 181
     },
     "total votes": 1283720,
     "percent votes flipped": "1.092%"

@@ -4,17 +4,17 @@
     "new winner": "Dole",
     "flipped votes": 575515,
     "flipped states": {
-        "Tennessee": 22809,
-        "Oregon": 55745,
-        "Florida": 151168,
-        "Ohio": 144170,
-        "New Hampshire": 24842,
-        "Kentucky": 6666,
         "Iowa": 63808,
+        "Florida": 151168,
+        "Kentucky": 6666,
+        "Tennessee": 22809,
+        "Missouri": 67960,
         "New Mexico": 20373,
-        "Nevada": 2366,
+        "Ohio": 144170,
         "Arizona": 15608,
-        "Missouri": 67960
+        "Nevada": 2366,
+        "Oregon": 55745,
+        "New Hampshire": 24842
     },
     "total votes": 96275640,
     "percent votes flipped": "0.598%"

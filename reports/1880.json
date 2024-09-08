@@ -4,10 +4,10 @@
     "new winner": "Hancock",
     "flipped votes": 8418,
     "flipped states": {
-        "Indiana": 3322,
         "Oregon": 333,
         "Connecticut": 1331,
         "Colorado": 1402,
+        "Indiana": 3322,
         "New Hampshire": 2030
     },
     "total votes": 9217410,

@@ -4,13 +4,13 @@
     "new winner": "Bryan",
     "flipped votes": 73232,
     "flipped states": {
-        "Kansas": 11678,
-        "Utah": 1067,
-        "Ohio": 34519,
-        "Nebraska": 3912,
-        "Indiana": 13240,
         "Maryland": 6974,
-        "Delaware": 1842
+        "Nebraska": 3912,
+        "Kansas": 11678,
+        "Delaware": 1842,
+        "Indiana": 13240,
+        "Utah": 1067,
+        "Ohio": 34519
     },
     "total votes": 13971846,
     "percent votes flipped": "0.524%"

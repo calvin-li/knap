@@ -4,8 +4,8 @@
     "new winner": "Clinton",
     "flipped votes": 38871,
     "flipped states": {
-        "Wisconsin": 11375,
         "Michigan": 5353,
+        "Wisconsin": 11375,
         "Pennsylvania": 22143
     },
     "total votes": 137143218,
