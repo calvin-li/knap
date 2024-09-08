@@ -3,20 +3,11 @@
     "original winner": "Truman",
     "new winner": "Dewey",
     "flipped votes": 29294,
-    "flipped states": [
-        [
-            "Illinois",
-            16807
-        ],
-        [
-            "California",
-            8933
-        ],
-        [
-            "Ohio",
-            3554
-        ]
-    ],
+    "flipped states": {
+        "Illinois": 16807,
+        "California": 8933,
+        "Ohio": 3554
+    },
     "total votes": 48794565,
     "percent votes flipped": "0.060%"
 }

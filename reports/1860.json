@@ -3,36 +3,15 @@
     "original winner": "Lincoln",
     "new winner": "Douglas",
     "flipped votes": 56562,
-    "flipped states": [
-        [
-            "Illinois",
-            5979
-        ],
-        [
-            "Ohio",
-            17195
-        ],
-        [
-            "California",
-            368
-        ],
-        [
-            "Oregon",
-            607
-        ],
-        [
-            "Rhode Island",
-            2269
-        ],
-        [
-            "New York",
-            25069
-        ],
-        [
-            "Minnesota",
-            5075
-        ]
-    ],
+    "flipped states": {
+        "Rhode Island": 2269,
+        "Ohio": 17195,
+        "Oregon": 607,
+        "Minnesota": 5075,
+        "Illinois": 5979,
+        "California": 368,
+        "New York": 25069
+    },
     "total votes": 4681267,
     "percent votes flipped": "1.208%"
 }

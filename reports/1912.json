@@ -3,100 +3,31 @@
     "original winner": "Wilson",
     "new winner": "Roosev.",
     "flipped votes": 214209,
-    "flipped states": [
-        [
-            "Idaho",
-            4198
-        ],
-        [
-            "West Virginia",
-            17043
-        ],
-        [
-            "Vermont",
-            601
-        ],
-        [
-            "Montana",
-            2743
-        ],
-        [
-            "Maine",
-            1310
-        ],
-        [
-            "Utah",
-            8964
-        ],
-        [
-            "New Mexico",
-            6046
-        ],
-        [
-            "North Dakota",
-            1915
-        ],
-        [
-            "Nebraska",
-            18164
-        ],
-        [
-            "Illinois",
-            9286
-        ],
-        [
-            "Kansas",
-            11727
-        ],
-        [
-            "Delaware",
-            6873
-        ],
-        [
-            "Wyoming",
-            3040
-        ],
-        [
-            "Oregon",
-            4733
-        ],
-        [
-            "Massachusetts",
-            15591
-        ],
-        [
-            "Rhode Island",
-            6768
-        ],
-        [
-            "New Jersey",
-            16440
-        ],
-        [
-            "Louisiana",
-            25795
-        ],
-        [
-            "Arizona",
-            1688
-        ],
-        [
-            "Nevada",
-            1184
-        ],
-        [
-            "Iowa",
-            11754
-        ],
-        [
-            "Alabama",
-            29880
-        ],
-        [
-            "New Hampshire",
-            8466
-        ]
-    ],
+    "flipped states": {
+        "New Hampshire": 8466,
+        "New Jersey": 16440,
+        "Rhode Island": 6768,
+        "Kansas": 11727,
+        "Idaho": 4198,
+        "Arizona": 1688,
+        "Wyoming": 3040,
+        "North Dakota": 1915,
+        "Louisiana": 25795,
+        "Montana": 2743,
+        "Nebraska": 18164,
+        "West Virginia": 17043,
+        "Maine": 1310,
+        "Iowa": 11754,
+        "Delaware": 6873,
+        "Massachusetts": 15591,
+        "Utah": 8964,
+        "Vermont": 601,
+        "Nevada": 1184,
+        "Oregon": 4733,
+        "Illinois": 9286,
+        "New Mexico": 6046,
+        "Alabama": 29880
+    },
     "total votes": 15046540,
     "percent votes flipped": "1.424%"
 }

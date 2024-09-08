@@ -3,124 +3,37 @@
     "original winner": "Roosev.",
     "new winner": "Landon",
     "flipped votes": 1947814,
-    "flipped states": [
-        [
-            "Wyoming",
-            11943
-        ],
-        [
-            "Rhode Island",
-            20104
-        ],
-        [
-            "West Virginia",
-            88613
-        ],
-        [
-            "Arizona",
-            26645
-        ],
-        [
-            "Nebraska",
-            49858
-        ],
-        [
-            "Nevada",
-            10002
-        ],
-        [
-            "Arkansas",
-            57364
-        ],
-        [
-            "Michigan",
-            158531
-        ],
-        [
-            "Utah",
-            42846
-        ],
-        [
-            "Iowa",
-            66890
-        ],
-        [
-            "New Mexico",
-            22156
-        ],
-        [
-            "North Dakota",
-            45199
-        ],
-        [
-            "Massachusetts",
-            87052
-        ],
-        [
-            "Delaware",
-            6234
-        ],
-        [
-            "Georgia",
-            109212
-        ],
-        [
-            "Kentucky",
-            86122
-        ],
-        [
-            "Indiana",
-            121703
-        ],
-        [
-            "Tennessee",
-            90282
-        ],
-        [
-            "South Carolina",
-            56073
-        ],
-        [
-            "Virginia",
-            68323
-        ],
-        [
-            "Alabama",
-            101420
-        ],
-        [
-            "Kansas",
-            33397
-        ],
-        [
-            "Mississippi",
-            76434
-        ],
-        [
-            "Maryland",
-            79089
-        ],
-        [
-            "South Dakota",
-            17081
-        ],
-        [
-            "New Hampshire",
-            1910
-        ],
-        [
-            "Connecticut",
-            51723
-        ],
-        [
-            "Idaho",
-            29714
-        ],
-        [
-            "Pennsylvania",
-            331894
-        ]
-    ],
+    "flipped states": {
+        "Nevada": 10002,
+        "Idaho": 29714,
+        "Massachusetts": 87052,
+        "Kentucky": 86122,
+        "Utah": 42846,
+        "Nebraska": 49858,
+        "South Dakota": 17081,
+        "Kansas": 33397,
+        "North Dakota": 45199,
+        "West Virginia": 88613,
+        "Virginia": 68323,
+        "Delaware": 6234,
+        "Georgia": 109212,
+        "Arizona": 26645,
+        "South Carolina": 56073,
+        "Indiana": 121703,
+        "Mississippi": 76434,
+        "Alabama": 101420,
+        "Maryland": 79089,
+        "Rhode Island": 20104,
+        "Michigan": 158531,
+        "Arkansas": 57364,
+        "Connecticut": 51723,
+        "Wyoming": 11943,
+        "Pennsylvania": 331894,
+        "Iowa": 66890,
+        "New Hampshire": 1910,
+        "New Mexico": 22156,
+        "Tennessee": 90282
+    },
     "total votes": 45654388,
     "percent votes flipped": "4.266%"
 }

@@ -1,0 +1,51 @@
+year,original winner,new winner,flipped votes,total votes,percent votes flipped,flipped states
+1824,Adams,Jackson,3176,365928,0.868%,Ohio:384;Virginia:2792
+1828,Jackson,Adams,12162,1149216,1.058%,Louisiana:262;Ohio:2101;Virginia:7393;Missouri:2406
+1832,Jackson,Clay,14013,1283720,1.092%,Louisiana:740;New York:6801;New Jersey:181;Vermont:978;Ohio:2354;New Hampshire:2959
+1836,Van Bu.,Harris.,15935,1502811,1.060%,Michigan:789;Rhode Island:128;Pennsylvania:2112;Maine:4012;Mississippi:5149;Illinois:1575;Connecticut:248;Louisiana:1922
+1840,Harris.,Van Bu.,8722,2412694,0.362%,Pennsylvania:168;Delaware:548;New York:6635;New Jersey:1159;Maine:212
+1844,Polk,Clay,2554,2703864,0.094%,New York:2554
+1848,Taylor,Cass,3717,2876818,0.129%,New Jersey:1558;Georgia:1374;Delaware:266;Florida:519
+1852,Pierce,Scott,29586,3159640,0.936%,Florida:722;Maryland:2473;Pennsylvania:9730;North Carolina:373;Rhode Island:555;Delaware:13;Missouri:4417;Ohio:8206;Iowa:954;Louisiana:697;Connecticut:1446
+1856,Buchan.,Fremont,26078,4051605,0.644%,Illinois:4627;Indiana:12148;New Jersey:9303
+1860,Lincoln,Douglas,56562,4681267,1.208%,Rhode Island:2269;Ohio:17195;Oregon:607;Minnesota:5075;Illinois:5979;California:368;New York:25069
+1864,Lincoln,McClel.,32733,4018202,0.815%,Rhode Island:2747;Oregon:716;Pennsylvania:10038;New York:3375;New Hampshire:1782;Michigan:5319;Connecticut:1203;Maryland:3708;Minnesota:3845
+1868,Grant,Seymour,24995,5722816,0.437%,California:261;Nevada:632;Connecticut:1473;Pennsylvania:14450;Alabama:1874;Arkansas:1518;Indiana:4787
+1872,Grant,Greeley,67037,6471983,1.036%,Nevada:1089;West Virginia:1395;Florida:1169;Connecticut:2310;Alabama:5415;Indiana:11258;Delaware:463;New Hampshire:2872;Virginia:909;Wisconsin:9259;Rhode Island:4169;New York:26729
+1876,Hayes,Tilden,445,8418659,0.005%,South Carolina:445
+1880,Garfie.,Hancock,8418,9217410,0.091%,Indiana:3322;Oregon:333;Connecticut:1331;Colorado:1402;New Hampshire:2030
+1884,Clevel.,Blaine,575,10060145,0.006%,New York:575
+1888,Harris.,Clevel.,7187,11388846,0.063%,New York:7187
+1892,Clevel.,Harris.,29093,12068027,0.241%,Kansas:2936;Indiana:3563;Connecticut:2682;West Virginia:2088;Illinois:13497;Idaho:961;Delaware:253;Wisconsin:3113
+1896,McKinl.,Bryan,39124,13938674,0.281%,North Dakota:2825;Delaware:1939;Oregon:1021;Ohio:24248;Indiana:9091
+1900,McKinl.,Bryan,73232,13971846,0.524%,Kansas:11678;Utah:1067;Ohio:34519;Nebraska:3912;Indiana:13240;Maryland:6974;Delaware:1842
+1904,Roosev.,Parker,196679,13525759,1.454%,Nevada:1442;Delaware:2180;Missouri:12569;New York:87777;Rhode Island:8384;Massachusetts:46039;West Virginia:15883;New Hampshire:10045;Montana:6580;Wyoming:5780
+1908,Taft,Bryan,77656,14889109,0.522%,Montana:1504;Kansas:18004;Indiana:5366;Ohio:34796;West Virginia:13226;Missouri:315;Wyoming:2965;Delaware:1480
+1912,Wilson,Roosev.,214209,15046540,1.424%,New Hampshire:8466;New Jersey:16440;Rhode Island:6768;Kansas:11727;Idaho:4198;Arizona:1688;Wyoming:3040;North Dakota:1915;Louisiana:25795;Montana:2743;Nebraska:18164;West Virginia:17043;Maine:1310;Iowa:11754;Delaware:6873;Massachusetts:15591;Utah:8964;Vermont:601;Nevada:1184;Oregon:4733;Illinois:9286;New Mexico:6046;Alabama:29880
+1916,Wilson,Hughes,1887,18541312,0.010%,California:1887
+1920,Harding,Cox,596492,26788225,2.227%,Indiana:92504;Idaho:21199;Wyoming:8832;Delaware:6474;Connecticut:54259;New Mexico:5484;Oregon:31787;South Dakota:37378;Montana:26030;Utah:12459;New Hampshire:16268;Tennessee:6636;Missouri:76182;West Virginia:30610;Maine:38698;Arizona:3736;Nevada:2815;Oklahoma:13390;Maryland:27746;Vermont:23647;Rhode Island:26201;Colorado:34157
+1924,Coolid.,Davis,549426,29092624,1.889%,Missouri:37867;Maine:48239;South Dakota:37043;Rhode Island:24341;Maryland:7172;Utah:15164;Wyoming:14496;Delaware:9499;Arizona:2141;Nebraska:40649;Kentucky:12056;North Dakota:40537;West Virginia:15702;Indiana:105399;Idaho:22812;Vermont:32188;Oregon:37496;New Mexico:3102;New Hampshire:20688;Nevada:2668;Montana:20167
+1928,Hoover,Smith,411248,36808961,1.117%,Maryland:38927;Utah:6817;Virginia:12232;New Mexico:10718;Texas:13003;Wisconsin:46974;New York:51741;New Hampshire:17345;Missouri:85760;Arizona:6999;North Carolina:31349;Florida:21203;North Dakota:12397;Montana:17362;Tennessee:14023;Nevada:2119;Connecticut:22279
+1932,Roosev.,Hoover,874622,39752454,2.200%,Nevada:8042;New York:298499;Massachusetts:31595;Kansas:37354;Colorado:30631;Arizona:21581;New Jersey:15474;West Virginia:37197;Rhode Island:15670;South Carolina:50185;Utah:15978;Ohio:37189;Virginia:57172;Tennessee:66361;Michigan:65904;Idaho:19032;Oregon:38927;New Mexico:20437;Wyoming:7394
+1936,Roosev.,Landon,1947814,45654388,4.266%,Nevada:10002;Idaho:29714;Massachusetts:87052;Kentucky:86122;Utah:42846;Nebraska:49858;South Dakota:17081;Kansas:33397;North Dakota:45199;West Virginia:88613;Virginia:68323;Delaware:6234;Georgia:109212;Arizona:26645;South Carolina:56073;Indiana:121703;Mississippi:76434;Alabama:101420;Maryland:79089;Rhode Island:20104;Michigan:158531;Arkansas:57364;Connecticut:51723;Wyoming:11943;Pennsylvania:331894;Iowa:66890;New Hampshire:1910;New Mexico:22156;Tennessee:90282
+1940,Roosev.,Willkie,426514,49912852,0.855%,Nevada:5359;Connecticut:27902;Minnesota:23962;Delaware:6580;Missouri:43734;Ohio:73184;New Mexico:12193;Idaho:10645;New Jersey:35667;Illinois:51348;Wyoming:3328;Wisconsin:12808;New York:112221;New Hampshire:7583
+1944,Roosev.,Dewey,278659,47977092,0.581%,Nevada:2507;Connecticut:22310;Michigan:11239;Maryland:11271;Illinois:70083;Montana:9697;Missouri:23141;Idaho:3632;New Jersey:13270;New Hampshire:4874;Pennsylvania:52713;Minnesota:31225;Oregon:11636;Delaware:5710;New Mexico:5351
+1948,Truman,Dewey,29294,48794565,0.060%,Illinois:16807;California:8933;Ohio:3554
+1952,Eisenh.,Steven.,713453,61552211,1.159%,New Mexico:13255;Maryland:52044;Pennsylvania:134761;Delaware:3373;Virginia:40181;Wyoming:16557;Arizona:21758;Texas:66826;Montana:25591;Rhode Island:3822;Nevada:9408;Utah:29414;Tennessee:1219;Oklahoma:43554;Missouri:14800;Florida:49544;Washington:53132;Massachusetts:104401;New Hampshire:29813
+1956,Eisenh.,Steven.,1141553,62021979,1.841%,Wyoming:12510;New Hampshire:43078;Idaho:30556;Maryland:93563;Delaware:9319;South Dakota:24641;Michigan:176875;Arizona:32056;Texas:110331;Florida:81740;Rhode Island:32015;Oregon:38595;Washington:48715;Kentucky:47870;New Mexico:20346;Tennessee:2891;North Dakota:30013;Minnesota:50889;West Virginia:33882;Louisiana:42536;Virginia:59350;Utah:48634;Montana:19348;Oklahoma:44095;Nevada:7705
+1960,Kennedy,Nixon,11874,68832483,0.017%,Nevada:1247;New Mexico:1148;Illinois:4430;Hawaii:58;Missouri:4991
+1964,Johnson,Goldwa.,2059257,70641539,2.915%,Montana:25608;Tennessee:62992;Florida:21300;New Hampshire:40018;Nebraska:15231;Delaware:22314;Texas:352310;New Mexico:31090;Indiana:129866;Iowa:141942;Virginia:38353;Arkansas:35467;North Dakota:20789;Alaska:10700;Kansas:38725;Wyoming:9361;Nevada:11623;Oregon:109120;South Dakota:16452;Vermont:26593;North Carolina:87648;Utah:19474;California:646385;Oklahoma:53585;Colorado:89629;Idaho:2682
+1968,Nixon,Humphr.,135284,73199999,0.185%,Nevada:6296;Alaska:1095;Delaware:3761;Missouri:10245;Wisconsin:30597;New Jersey:30631;Vermont:7444;Ohio:45215
+1972,Nixon,McGove.,3174786,77744030,4.084%,Delaware:24038;Iowa:105001;Oregon:46964;California:563125;South Dakota:13266;Wyoming:28054;South Carolina:144579;New York:620848;Maine:47938;Illinois:437354;Minnesota:47962;Maryland:161763;Vermont:24488;Hawaii:33729;New Hampshire:48645;New Mexico:47262;Wisconsin:89629;Washington:134401;Nevada:24868;Connecticut:127633;North Dakota:36863;Rhode Island:12870;Montana:31890;Idaho:59280;Alaska:11192;Michigan:251144
+1976,Carter,Ford,9246,81540780,0.011%,Ohio:5559;Hawaii:3687
+1980,Reagan,Carter,731189,86509678,0.845%,Pennsylvania:162167;Mississippi:5905;Illinois:188319;Wisconsin:53631;Tennessee:2356;Michigan:126847;Vermont:6354;Arkansas:2562;New York:82730;Louisiana:42201;North Carolina:19692;Delaware:2750;Kentucky:9429;Alabama:8732;Maine:8775;South Carolina:6824;Massachusetts:1915
+1984,Reagan,Mondale,2675811,92653233,2.888%,Maine:60993;Vermont:20068;Pennsylvania:178097;California:772246;Rhode Island:7488;Georgia:181048;West Virginia:38680;New Mexico:52667;Massachusetts:35666;Washington:122160;Iowa:48735;Maryland:45992;Nevada:48558;Hawaii:18949;Wisconsin:101477;Delaware:25268;New York:272578;Montana:42855;Wyoming:39936;Tennessee:139250;Alaska:38186;Illinois:310303;Oregon:74611
+1988,Bush,Dukakis,537766,91594686,0.587%,Connecticut:36829;Vermont:4279;Delaware:15497;New Mexico:12923;Missouri:41668;Colorado:53363;North Dakota:19411;Maine:31782;South Dakota:9928;Maryland:24932;Pennsylvania:52572;California:176343;Illinois:47500;Montana:10739
+1992,Clinton,Bush,284837,104426611,0.273%,Georgia:6858;Kentucky:23964;Louisiana:41293;Ohio:45317;Delaware:11871;New Hampshire:3279;Montana:5151;Colorado:33416;Nevada:6661;Tennessee:46111;New Jersey:39671;Hawaii:21245
+1996,Clinton,Dole,575515,96275640,0.598%,Tennessee:22809;Oregon:55745;Florida:151168;Ohio:144170;New Hampshire:24842;Kentucky:6666;Iowa:63808;New Mexico:20373;Nevada:2366;Arizona:15608;Missouri:67960
+2000,Bush,Gore,269,105425985,0.00026%,Florida:269
+2004,Bush,Kerry,57791,122303590,0.047%,New Mexico:2995;Colorado:49766;Iowa:5030
+2008,Obama,McCain,495165,131473705,0.377%,New Hampshire:34147;Virginia:117264;Iowa:73281;Indiana:14196;North Carolina:7089;Florida:118075;Ohio:131113
+2012,Obama,Romney,214764,129237642,0.166%,Florida:37155;Virginia:74650;Ohio:83137;New Hampshire:19822
+2016,Trump,Clinton,38871,137143218,0.028%,Wisconsin:11375;Michigan:5353;Pennsylvania:22143
+2020,Biden,Trump,38260,158590894,0.024%,Arizona:5229;Nevada:16799;Wisconsin:10342;Georgia:5890

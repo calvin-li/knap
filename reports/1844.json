@@ -3,12 +3,9 @@
     "original winner": "Polk",
     "new winner": "Clay",
     "flipped votes": 2554,
-    "flipped states": [
-        [
-            "New York",
-            2554
-        ]
-    ],
+    "flipped states": {
+        "New York": 2554
+    },
     "total votes": 2703864,
     "percent votes flipped": "0.094%"
 }

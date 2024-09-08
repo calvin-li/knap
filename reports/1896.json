@@ -3,28 +3,13 @@
     "original winner": "McKinl.",
     "new winner": "Bryan",
     "flipped votes": 39124,
-    "flipped states": [
-        [
-            "Oregon",
-            1021
-        ],
-        [
-            "North Dakota",
-            2825
-        ],
-        [
-            "Ohio",
-            24248
-        ],
-        [
-            "Delaware",
-            1939
-        ],
-        [
-            "Indiana",
-            9091
-        ]
-    ],
+    "flipped states": {
+        "North Dakota": 2825,
+        "Delaware": 1939,
+        "Oregon": 1021,
+        "Ohio": 24248,
+        "Indiana": 9091
+    },
     "total votes": 13938674,
     "percent votes flipped": "0.281%"
 }

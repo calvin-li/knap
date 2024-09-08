@@ -3,56 +3,20 @@
     "original winner": "Grant",
     "new winner": "Greeley",
     "flipped votes": 67037,
-    "flipped states": [
-        [
-            "Delaware",
-            463
-        ],
-        [
-            "Alabama",
-            5415
-        ],
-        [
-            "Florida",
-            1169
-        ],
-        [
-            "Indiana",
-            11258
-        ],
-        [
-            "Nevada",
-            1089
-        ],
-        [
-            "Virginia",
-            909
-        ],
-        [
-            "New Hampshire",
-            2872
-        ],
-        [
-            "Connecticut",
-            2310
-        ],
-        [
-            "West Virginia",
-            1395
-        ],
-        [
-            "Wisconsin",
-            9259
-        ],
-        [
-            "Rhode Island",
-            4169
-        ],
-        [
-            "New York",
-            26729
-        ]
-    ],
+    "flipped states": {
+        "Nevada": 1089,
+        "West Virginia": 1395,
+        "Florida": 1169,
+        "Connecticut": 2310,
+        "Alabama": 5415,
+        "Indiana": 11258,
+        "Delaware": 463,
+        "New Hampshire": 2872,
+        "Virginia": 909,
+        "Wisconsin": 9259,
+        "Rhode Island": 4169,
+        "New York": 26729
+    },
     "total votes": 6471983,
     "percent votes flipped": "1.036%"
 }

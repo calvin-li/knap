@@ -3,44 +3,17 @@
     "original winner": "Lincoln",
     "new winner": "McClel.",
     "flipped votes": 32733,
-    "flipped states": [
-        [
-            "Minnesota",
-            3845
-        ],
-        [
-            "Michigan",
-            5319
-        ],
-        [
-            "Rhode Island",
-            2747
-        ],
-        [
-            "New York",
-            3375
-        ],
-        [
-            "New Hampshire",
-            1782
-        ],
-        [
-            "Pennsylvania",
-            10038
-        ],
-        [
-            "Connecticut",
-            1203
-        ],
-        [
-            "Oregon",
-            716
-        ],
-        [
-            "Maryland",
-            3708
-        ]
-    ],
+    "flipped states": {
+        "Rhode Island": 2747,
+        "Oregon": 716,
+        "Pennsylvania": 10038,
+        "New York": 3375,
+        "New Hampshire": 1782,
+        "Michigan": 5319,
+        "Connecticut": 1203,
+        "Maryland": 3708,
+        "Minnesota": 3845
+    },
     "total votes": 4018202,
     "percent votes flipped": "0.815%"
 }

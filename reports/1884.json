@@ -3,12 +3,9 @@
     "original winner": "Clevel.",
     "new winner": "Blaine",
     "flipped votes": 575,
-    "flipped states": [
-        [
-            "New York",
-            575
-        ]
-    ],
+    "flipped states": {
+        "New York": 575
+    },
     "total votes": 10060145,
     "percent votes flipped": "0.006%"
 }

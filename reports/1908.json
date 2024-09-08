@@ -3,40 +3,16 @@
     "original winner": "Taft",
     "new winner": "Bryan",
     "flipped votes": 77656,
-    "flipped states": [
-        [
-            "Kansas",
-            18004
-        ],
-        [
-            "Wyoming",
-            2965
-        ],
-        [
-            "Missouri",
-            315
-        ],
-        [
-            "Indiana",
-            5366
-        ],
-        [
-            "Ohio",
-            34796
-        ],
-        [
-            "Delaware",
-            1480
-        ],
-        [
-            "West Virginia",
-            13226
-        ],
-        [
-            "Montana",
-            1504
-        ]
-    ],
+    "flipped states": {
+        "Montana": 1504,
+        "Kansas": 18004,
+        "Indiana": 5366,
+        "Ohio": 34796,
+        "West Virginia": 13226,
+        "Missouri": 315,
+        "Wyoming": 2965,
+        "Delaware": 1480
+    },
     "total votes": 14889109,
     "percent votes flipped": "0.522%"
 }

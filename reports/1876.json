@@ -3,12 +3,9 @@
     "original winner": "Hayes",
     "new winner": "Tilden",
     "flipped votes": 445,
-    "flipped states": [
-        [
-            "South Carolina",
-            445
-        ]
-    ],
+    "flipped states": {
+        "South Carolina": 445
+    },
     "total votes": 8418659,
     "percent votes flipped": "0.005%"
 }

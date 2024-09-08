@@ -113,7 +113,7 @@ class Election:
             "original winner": winner,
             "new winner": runner_up,
             "flipped votes": flipped_votes,
-            "flipped states": list(flipped_states),
+            "flipped states": {state[0]: state[1] for state in flipped_states},
             "total votes": total_pvs,
             "percent votes flipped": f"{flipped_votes * 100 / total_pvs:.{5 if very_close else 3}f}%"
         }

@@ -1,17 +1,11 @@
-import requests
 import json
 
 from bs4 import BeautifulSoup
 
 from Election import Election
 
-
-def get_data(year):
-    url = f"https://uselectionatlas.org/RESULTS/data.php?year={year}&datatype=national&def=1&f=0&off=0&elect=0"
-    request = requests.get(url)
-    with open(f"raw_data/{year}.html", "w") as file:
-        file.write(request.content.decode())
-        print(f"Downloaded {year}")
+START_YEAR = 1824
+END_YEAR = 2020
 
 
 def is_datatable(tag):
@@ -20,10 +14,8 @@ def is_datatable(tag):
 
 
 def main():
-    start = 1824
-    end = 2020
     elections = []
-    for year in range(start, end + 4, 4):
+    for year in range(START_YEAR, END_YEAR + 4, 4):
         with open(f"csv_data/{year}.csv", "r") as csv:
             elections.append(Election.create_from_csv(year, csv.readlines()))
 

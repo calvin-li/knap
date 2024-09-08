@@ -3,24 +3,12 @@
     "original winner": "Taylor",
     "new winner": "Cass",
     "flipped votes": 3717,
-    "flipped states": [
-        [
-            "Georgia",
-            1374
-        ],
-        [
-            "Delaware",
-            266
-        ],
-        [
-            "Florida",
-            519
-        ],
-        [
-            "New Jersey",
-            1558
-        ]
-    ],
+    "flipped states": {
+        "New Jersey": 1558,
+        "Georgia": 1374,
+        "Delaware": 266,
+        "Florida": 519
+    },
     "total votes": 2876818,
     "percent votes flipped": "0.129%"
 }

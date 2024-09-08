@@ -3,12 +3,9 @@
     "original winner": "Wilson",
     "new winner": "Hughes",
     "flipped votes": 1887,
-    "flipped states": [
-        [
-            "California",
-            1887
-        ]
-    ],
+    "flipped states": {
+        "California": 1887
+    },
     "total votes": 18541312,
     "percent votes flipped": "0.010%"
 }

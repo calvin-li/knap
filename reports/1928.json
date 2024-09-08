@@ -3,76 +3,25 @@
     "original winner": "Hoover",
     "new winner": "Smith",
     "flipped votes": 411248,
-    "flipped states": [
-        [
-            "Nevada",
-            2119
-        ],
-        [
-            "Arizona",
-            6999
-        ],
-        [
-            "Florida",
-            21203
-        ],
-        [
-            "Virginia",
-            12232
-        ],
-        [
-            "Connecticut",
-            22279
-        ],
-        [
-            "New Hampshire",
-            17345
-        ],
-        [
-            "Tennessee",
-            14023
-        ],
-        [
-            "New Mexico",
-            10718
-        ],
-        [
-            "Texas",
-            13003
-        ],
-        [
-            "Wisconsin",
-            46974
-        ],
-        [
-            "New York",
-            51741
-        ],
-        [
-            "Utah",
-            6817
-        ],
-        [
-            "Montana",
-            17362
-        ],
-        [
-            "North Dakota",
-            12397
-        ],
-        [
-            "Missouri",
-            85760
-        ],
-        [
-            "North Carolina",
-            31349
-        ],
-        [
-            "Maryland",
-            38927
-        ]
-    ],
+    "flipped states": {
+        "Maryland": 38927,
+        "Utah": 6817,
+        "Virginia": 12232,
+        "New Mexico": 10718,
+        "Texas": 13003,
+        "Wisconsin": 46974,
+        "New York": 51741,
+        "New Hampshire": 17345,
+        "Missouri": 85760,
+        "Arizona": 6999,
+        "North Carolina": 31349,
+        "Florida": 21203,
+        "North Dakota": 12397,
+        "Montana": 17362,
+        "Tennessee": 14023,
+        "Nevada": 2119,
+        "Connecticut": 22279
+    },
     "total votes": 36808961,
     "percent votes flipped": "1.117%"
 }

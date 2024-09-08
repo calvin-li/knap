@@ -3,28 +3,13 @@
     "original winner": "Kennedy",
     "new winner": "Nixon",
     "flipped votes": 11874,
-    "flipped states": [
-        [
-            "Illinois",
-            4430
-        ],
-        [
-            "Missouri",
-            4991
-        ],
-        [
-            "Hawaii",
-            58
-        ],
-        [
-            "Nevada",
-            1247
-        ],
-        [
-            "New Mexico",
-            1148
-        ]
-    ],
+    "flipped states": {
+        "Nevada": 1247,
+        "New Mexico": 1148,
+        "Illinois": 4430,
+        "Hawaii": 58,
+        "Missouri": 4991
+    },
     "total votes": 68832483,
     "percent votes flipped": "0.017%"
 }

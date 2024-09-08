@@ -3,28 +3,13 @@
     "original winner": "Harris.",
     "new winner": "Van Bu.",
     "flipped votes": 8722,
-    "flipped states": [
-        [
-            "New York",
-            6635
-        ],
-        [
-            "Pennsylvania",
-            168
-        ],
-        [
-            "Maine",
-            212
-        ],
-        [
-            "Delaware",
-            548
-        ],
-        [
-            "New Jersey",
-            1159
-        ]
-    ],
+    "flipped states": {
+        "Pennsylvania": 168,
+        "Delaware": 548,
+        "New York": 6635,
+        "New Jersey": 1159,
+        "Maine": 212
+    },
     "total votes": 2412694,
     "percent votes flipped": "0.362%"
 }

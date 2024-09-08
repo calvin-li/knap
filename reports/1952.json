@@ -3,84 +3,27 @@
     "original winner": "Eisenh.",
     "new winner": "Steven.",
     "flipped votes": 713453,
-    "flipped states": [
-        [
-            "Missouri",
-            14800
-        ],
-        [
-            "Florida",
-            49544
-        ],
-        [
-            "Maryland",
-            52044
-        ],
-        [
-            "Montana",
-            25591
-        ],
-        [
-            "Massachusetts",
-            104401
-        ],
-        [
-            "Pennsylvania",
-            134761
-        ],
-        [
-            "Tennessee",
-            1219
-        ],
-        [
-            "Virginia",
-            40181
-        ],
-        [
-            "Utah",
-            29414
-        ],
-        [
-            "Washington",
-            53132
-        ],
-        [
-            "Wyoming",
-            16557
-        ],
-        [
-            "New Mexico",
-            13255
-        ],
-        [
-            "Nevada",
-            9408
-        ],
-        [
-            "Texas",
-            66826
-        ],
-        [
-            "Oklahoma",
-            43554
-        ],
-        [
-            "Arizona",
-            21758
-        ],
-        [
-            "New Hampshire",
-            29813
-        ],
-        [
-            "Rhode Island",
-            3822
-        ],
-        [
-            "Delaware",
-            3373
-        ]
-    ],
+    "flipped states": {
+        "New Mexico": 13255,
+        "Maryland": 52044,
+        "Pennsylvania": 134761,
+        "Delaware": 3373,
+        "Virginia": 40181,
+        "Wyoming": 16557,
+        "Arizona": 21758,
+        "Texas": 66826,
+        "Montana": 25591,
+        "Rhode Island": 3822,
+        "Nevada": 9408,
+        "Utah": 29414,
+        "Tennessee": 1219,
+        "Oklahoma": 43554,
+        "Missouri": 14800,
+        "Florida": 49544,
+        "Washington": 53132,
+        "Massachusetts": 104401,
+        "New Hampshire": 29813
+    },
     "total votes": 61552211,
     "percent votes flipped": "1.159%"
 }

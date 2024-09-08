@@ -3,20 +3,11 @@
     "original winner": "Bush",
     "new winner": "Kerry",
     "flipped votes": 57791,
-    "flipped states": [
-        [
-            "Colorado",
-            49766
-        ],
-        [
-            "New Mexico",
-            2995
-        ],
-        [
-            "Iowa",
-            5030
-        ]
-    ],
+    "flipped states": {
+        "New Mexico": 2995,
+        "Colorado": 49766,
+        "Iowa": 5030
+    },
     "total votes": 122303590,
     "percent votes flipped": "0.047%"
 }

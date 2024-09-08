@@ -3,96 +3,30 @@
     "original winner": "Harding",
     "new winner": "Cox",
     "flipped votes": 596492,
-    "flipped states": [
-        [
-            "Tennessee",
-            6636
-        ],
-        [
-            "Indiana",
-            92504
-        ],
-        [
-            "South Dakota",
-            37378
-        ],
-        [
-            "Delaware",
-            6474
-        ],
-        [
-            "Utah",
-            12459
-        ],
-        [
-            "Colorado",
-            34157
-        ],
-        [
-            "West Virginia",
-            30610
-        ],
-        [
-            "Rhode Island",
-            26201
-        ],
-        [
-            "Arizona",
-            3736
-        ],
-        [
-            "Oregon",
-            31787
-        ],
-        [
-            "Connecticut",
-            54259
-        ],
-        [
-            "Montana",
-            26030
-        ],
-        [
-            "Vermont",
-            23647
-        ],
-        [
-            "New Hampshire",
-            16268
-        ],
-        [
-            "Wyoming",
-            8832
-        ],
-        [
-            "Maine",
-            38698
-        ],
-        [
-            "New Mexico",
-            5484
-        ],
-        [
-            "Nevada",
-            2815
-        ],
-        [
-            "Maryland",
-            27746
-        ],
-        [
-            "Missouri",
-            76182
-        ],
-        [
-            "Oklahoma",
-            13390
-        ],
-        [
-            "Idaho",
-            21199
-        ]
-    ],
+    "flipped states": {
+        "Indiana": 92504,
+        "Idaho": 21199,
+        "Wyoming": 8832,
+        "Delaware": 6474,
+        "Connecticut": 54259,
+        "New Mexico": 5484,
+        "Oregon": 31787,
+        "South Dakota": 37378,
+        "Montana": 26030,
+        "Utah": 12459,
+        "New Hampshire": 16268,
+        "Tennessee": 6636,
+        "Missouri": 76182,
+        "West Virginia": 30610,
+        "Maine": 38698,
+        "Arizona": 3736,
+        "Nevada": 2815,
+        "Oklahoma": 13390,
+        "Maryland": 27746,
+        "Vermont": 23647,
+        "Rhode Island": 26201,
+        "Colorado": 34157
+    },
     "total votes": 26788225,
     "percent votes flipped": "2.227%"
 }
