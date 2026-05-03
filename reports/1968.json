@@ -4,13 +4,13 @@
     "new winner": "Humphr.",
     "flipped votes": 135284,
     "flipped states": {
-        "Delaware": 3761,
         "Vermont": 7444,
+        "Nevada": 6296,
+        "Missouri": 10245,
+        "Delaware": 3761,
+        "Wisconsin": 30597,
         "New Jersey": 30631,
         "Ohio": 45215,
-        "Wisconsin": 30597,
-        "Missouri": 10245,
-        "Nevada": 6296,
         "Alaska": 1095
     },
     "total votes": 73199999,

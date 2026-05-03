@@ -4,18 +4,18 @@
     "new winner": "Greeley",
     "flipped votes": 67037,
     "flipped states": {
+        "Wisconsin": 9259,
         "Alabama": 5415,
-        "Virginia": 909,
         "Indiana": 11258,
         "New York": 26729,
-        "Connecticut": 2310,
-        "Florida": 1169,
-        "Delaware": 463,
         "West Virginia": 1395,
-        "Nevada": 1089,
         "New Hampshire": 2872,
-        "Wisconsin": 9259,
-        "Rhode Island": 4169
+        "Delaware": 463,
+        "Nevada": 1089,
+        "Florida": 1169,
+        "Virginia": 909,
+        "Rhode Island": 4169,
+        "Connecticut": 2310
     },
     "total votes": 6471983,
     "percent votes flipped": "1.036%"

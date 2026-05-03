@@ -4,15 +4,15 @@
     "new winner": "McClel.",
     "flipped votes": 32733,
     "flipped states": {
-        "Pennsylvania": 10038,
         "Rhode Island": 2747,
-        "Minnesota": 3845,
-        "New York": 3375,
-        "Oregon": 716,
-        "Michigan": 5319,
-        "Maryland": 3708,
+        "Connecticut": 1203,
         "New Hampshire": 1782,
-        "Connecticut": 1203
+        "Pennsylvania": 10038,
+        "Oregon": 716,
+        "Minnesota": 3845,
+        "Maryland": 3708,
+        "Michigan": 5319,
+        "New York": 3375
     },
     "total votes": 4018202,
     "percent votes flipped": "0.815%"

@@ -4,14 +4,14 @@
     "new winner": "Bryan",
     "flipped votes": 77656,
     "flipped states": {
-        "Missouri": 315,
-        "Ohio": 34796,
-        "Indiana": 5366,
-        "Kansas": 18004,
         "Montana": 1504,
-        "Wyoming": 2965,
+        "Ohio": 34796,
+        "Delaware": 1480,
+        "Indiana": 5366,
         "West Virginia": 13226,
-        "Delaware": 1480
+        "Wyoming": 2965,
+        "Kansas": 18004,
+        "Missouri": 315
     },
     "total votes": 14889109,
     "percent votes flipped": "0.522%"

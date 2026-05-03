@@ -5,10 +5,10 @@
     "flipped votes": 8418,
     "flipped states": {
         "Oregon": 333,
-        "Connecticut": 1331,
         "Colorado": 1402,
         "Indiana": 3322,
-        "New Hampshire": 2030
+        "New Hampshire": 2030,
+        "Connecticut": 1331
     },
     "total votes": 9217410,
     "percent votes flipped": "0.091%"

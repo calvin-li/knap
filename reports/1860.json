@@ -4,13 +4,13 @@
     "new winner": "Douglas",
     "flipped votes": 56562,
     "flipped states": {
+        "Rhode Island": 2269,
+        "Illinois": 5979,
         "Ohio": 17195,
         "New York": 25069,
-        "Oregon": 607,
+        "California": 368,
         "Minnesota": 5075,
-        "Illinois": 5979,
-        "Rhode Island": 2269,
-        "California": 368
+        "Oregon": 607
     },
     "total votes": 4681267,
     "percent votes flipped": "1.208%"
