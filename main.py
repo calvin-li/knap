@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from Election import Election
 
 START_YEAR = 1824
-END_YEAR = 2020
+END_YEAR = 2024
 
 
 def is_datatable(tag):

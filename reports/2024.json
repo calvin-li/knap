@@ -1,0 +1,13 @@
+{
+    "year": 2024,
+    "original winner": "Trump",
+    "new winner": "Harris",
+    "flipped votes": 114885,
+    "flipped states": {
+        "Wisconsin": 14699,
+        "Pennsylvania": 60134,
+        "Michigan": 40052
+    },
+    "total votes": 155552842,
+    "percent votes flipped": "0.074%"
+}
